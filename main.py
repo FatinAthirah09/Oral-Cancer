@@ -43,11 +43,10 @@ if __name__ == '__main__':
 
 
 import pandas as pd
-import matplotlib.pyplot as plt
-import seaborn as sns
+import plotly.express as px
 import streamlit as st
 
-# --- 1. Data Preparation (Already Optimized) ---
+# --- 1. Dataset (same as your table) ---
 
 results = {
     'Model': [
@@ -71,59 +70,23 @@ results = {
 results_df = pd.DataFrame(results)
 
 
-# --- 2. Plotting Function (Streamlit Version) ---
+# --- 2. Plotly Bar Chart Function (FIXED + CLEAN) ---
 
-def plot_accuracy_comparison(results_df):
-    # Extract base model + type
-    extracted = results_df['Model'].str.extract(r'(.+)\s\((Color|Grayscale)\)')
+def plot_accuracy_comparison_plotly(df):
+    # Extract model base name + type
+    extracted = df['Model'].str.extract(r'(.+)\s\((Color|Grayscale)\)')
     extracted.columns = ['Base Model', 'Image Type']
 
-    # Combine with accuracy values
-    plot_df = pd.concat([extracted, results_df[['Accuracy']]], axis=1)
+    # Combine with accuracy
+    plot_df = pd.concat([extracted, df[['Accuracy']]], axis=1)
 
-    # Pivot so each model has two accuracy values
-    comparison_df = plot_df.pivot(index='Base Model', columns='Image Type', values='Accuracy').reset_index()
-
-    # Rename columns
-    comparison_df.columns = ['Base Model', 'Color Accuracy', 'Grayscale Accuracy']
-
-    # Melt for seaborn
-    melted_df = comparison_df.melt(
-        id_vars='Base Model',
-        value_vars=['Color Accuracy', 'Grayscale Accuracy'],
-        var_name='Image Type',
-        value_name='Accuracy'
-    )
-
-    # --- Streamlit Plot ---
-    plt.figure(figsize=(12, 7))
-    sns.barplot(
+    # Plot using Plotly Express
+    fig = px.bar(
+        plot_df,
         x='Base Model',
         y='Accuracy',
-        hue='Image Type',
-        data=melted_df,
-        palette='Spectral'
-    )
-
-    # Styling
-    plt.title('Accuracy Comparison: Color vs. Grayscale Models', fontsize=16, fontweight='bold')
-    plt.xlabel('Model', fontsize=12)
-    plt.ylabel('Accuracy', fontsize=12)
-    plt.xticks(rotation=45, ha='right')
-    plt.grid(axis='y', linestyle='--', alpha=0.6)
-    plt.ylim(0, 1.05)
-    sns.despine()
-
-    # Horizontal reference line
-    plt.axhline(0.5, linestyle='--', color='red', alpha=0.6)
-
-    st.pyplot(plt)
-
-
-# --- 3. Streamlit App Section ---
-
-def render_accuracy_chart():
-    st.header("📊 Accuracy Comparison Bar Chart")
-    st.caption("Color vs. Grayscale CNN Performance Comparison")
-    plot_accuracy_comparison(results_df)
+        color='Image Type',
+        barmode='group',
+        height=600,
+        color_discrete_sequence=p
 
