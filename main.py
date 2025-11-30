@@ -46,11 +46,10 @@ import pandas as pd
 import plotly.express as px
 import plotly.graph_objects as go
 import streamlit as st 
-import numpy as np # Used for potential future calculations
 
-# --- 1. Data Preparation (Optimized) ---
+# --- 1. Data Preparation (Optimized from your Colab table code) ---
 
-# Define the results using a clean dictionary-of-lists structure.
+# Define the results using the clean dictionary-of-lists structure.
 results = {
     'Model': [
         'DenseNet121 (Color)', 'ResNet50 (Color)', 'VGG16 (Color)', 'MobileNetV2 (Color)', 'InceptionV3 (Color)', 
@@ -70,17 +69,16 @@ results = {
     ]
 }
 
-# Create the DataFrame (Used by both the table and the chart)
+# Create the DataFrame
 results_df = pd.DataFrame(results)
 
 # --------------------------------------------------------------------------------
 
-# --- 2. Plotting Function (Plotly Format) ---
+# --- 2. Plotting Function (Plotly Bar Chart) ---
 
 def plot_accuracy_comparison_plotly(results_df: pd.DataFrame, accuracy_col: str = 'Accuracy', model_col: str = 'Model'):
     """
-    Compares the accuracy of models trained on color and grayscale images 
-    using an interactive Plotly grouped bar chart and returns the figure object.
+    Creates the grouped bar chart using Plotly, incorporating robust data cleaning.
     """
 
     # 1. Data Preparation: Extract Base Model and Image Type
@@ -95,15 +93,24 @@ def plot_accuracy_comparison_plotly(results_df: pd.DataFrame, accuracy_col: str 
         results_df[[accuracy_col]]
     ], axis=1).dropna(subset=['Base Model']) 
     
-    # Data Integrity & Type Coercion for Plotly stability
-    plot_df['Base Model'] = plot_df['Base Model'].astype(str)
-    plot_df['Image Type'] = plot_df['Image Type'].astype(str)
+    # CRITICAL CLEANUP AND TYPE CASTING FOR PLOTLY STABILITY
+    plot_df['Base Model'] = plot_df['Base Model'].astype(str).str.strip()
+    plot_df['Image Type'] = plot_df['Image Type'].astype(str).str.strip()
     
+    # Ensure Accuracy is a clean numeric type
+    try:
+        plot_df[accuracy_col] = pd.to_numeric(plot_df[accuracy_col], errors='coerce')
+    except Exception as e:
+        st.error(f"Failed to convert Accuracy column to numeric: {e}")
+        return go.Figure()
+
+    plot_df.dropna(subset=['Base Model', 'Image Type', accuracy_col], inplace=True)
+
     if plot_df.empty:
         st.error("No valid data remaining after cleaning for plotting.")
         return go.Figure()
     
-    # 2. Visualization: Use Plotly Express
+    # 2. Visualization: Plotly Express
     fig = px.bar(
         plot_df,
         x='Base Model',
@@ -117,10 +124,10 @@ def plot_accuracy_comparison_plotly(results_df: pd.DataFrame, accuracy_col: str 
             'Image Type': 'Input Data Type'
         },
         template='plotly_white',
-        color_discrete_sequence='Spectral' # Robust color fix
+        color_discrete_sequence='Spectral' 
     )
 
-    # 3. Enhance Plot Details
+    # 3. Add Layout and Reference Line (using add_shape for stability)
     min_acc = plot_df[accuracy_col].min()
     max_acc = plot_df[accuracy_col].max()
     y_range = [max(0, min_acc - 0.05), min(1.0, max_acc + 0.05)]
@@ -128,10 +135,9 @@ def plot_accuracy_comparison_plotly(results_df: pd.DataFrame, accuracy_col: str 
     fig.update_layout(
         yaxis_range=y_range,
         xaxis_tickangle=-45,
-        legend_title='Input Data Type' # Match the original legend title
+        legend_title='Input Data Type'
     )
     
-    # FIXED: Use fig.add_shape for a highly robust horizontal line (Random Guess Baseline)
     fig.add_shape(
         type='line', xref='paper', yref='y',
         x0=0, y0=0.5, x1=1, y1=0.5,
@@ -141,8 +147,7 @@ def plot_accuracy_comparison_plotly(results_df: pd.DataFrame, accuracy_col: str 
         text="Random Guess Baseline (0.5)",
         xref="paper", yref="y",
         x=1, y=0.5,
-        showarrow=False,
-        xanchor='right', yanchor='bottom',
+        showarrow=False, xanchor='right', yanchor='bottom',
         font=dict(color="Red", size=10)
     )
 
@@ -155,10 +160,11 @@ def plot_accuracy_comparison_plotly(results_df: pd.DataFrame, accuracy_col: str 
 if __name__ == '__main__':
     st.set_page_config(layout="wide")
     
-    # 1. Display Title and Chart
+    # --- CHART SECTION ---
     st.title("🧠 Deep Learning Model Performance Analysis")
     st.markdown("Comparison of Accuracy for CNN Models Trained on Color vs. Grayscale Inputs.")
     
+    # Generate the Plotly figure
     plot_figure = plot_accuracy_comparison_plotly(results_df)
     
     # Display the Plotly figure (The Chart)
@@ -166,6 +172,7 @@ if __name__ == '__main__':
     
     st.markdown("---")
     
-    # 2. Display the Table
+    # --- TABLE SECTION ---
     st.subheader("Results Data Table")
+    # Display the DataFrame (The Table)
     st.dataframe(results_df, use_container_width=True)
