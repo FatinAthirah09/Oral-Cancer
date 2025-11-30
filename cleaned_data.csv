@@ -1,0 +1,1120 @@
+image_path,label
+/content/drive/MyDrive/Dataset Oral Cancer/normal/042.jpeg,normal
+/content/drive/MyDrive/Dataset Oral Cancer/normal/028.jpeg,normal
+/content/drive/MyDrive/Dataset Oral Cancer/normal/014.jpeg,normal
+/content/drive/MyDrive/Dataset Oral Cancer/normal/037.jpeg,normal
+/content/drive/MyDrive/Dataset Oral Cancer/normal/004.jpeg,normal
+/content/drive/MyDrive/Dataset Oral Cancer/normal/045.jpeg,normal
+/content/drive/MyDrive/Dataset Oral Cancer/normal/019.jpeg,normal
+/content/drive/MyDrive/Dataset Oral Cancer/normal/048.jpeg,normal
+/content/drive/MyDrive/Dataset Oral Cancer/normal/018.jpeg,normal
+/content/drive/MyDrive/Dataset Oral Cancer/normal/005.jpeg,normal
+/content/drive/MyDrive/Dataset Oral Cancer/normal/035.jpeg,normal
+/content/drive/MyDrive/Dataset Oral Cancer/normal/009.jpeg,normal
+/content/drive/MyDrive/Dataset Oral Cancer/normal/021.jpeg,normal
+/content/drive/MyDrive/Dataset Oral Cancer/normal/029.jpeg,normal
+/content/drive/MyDrive/Dataset Oral Cancer/normal/030.jpeg,normal
+/content/drive/MyDrive/Dataset Oral Cancer/normal/020.jpeg,normal
+/content/drive/MyDrive/Dataset Oral Cancer/normal/008.jpeg,normal
+/content/drive/MyDrive/Dataset Oral Cancer/normal/025.jpeg,normal
+/content/drive/MyDrive/Dataset Oral Cancer/normal/039.jpeg,normal
+/content/drive/MyDrive/Dataset Oral Cancer/normal/013.jpeg,normal
+/content/drive/MyDrive/Dataset Oral Cancer/normal/026.jpeg,normal
+/content/drive/MyDrive/Dataset Oral Cancer/normal/031.jpeg,normal
+/content/drive/MyDrive/Dataset Oral Cancer/normal/032.jpeg,normal
+/content/drive/MyDrive/Dataset Oral Cancer/normal/022.jpeg,normal
+/content/drive/MyDrive/Dataset Oral Cancer/normal/043.jpeg,normal
+/content/drive/MyDrive/Dataset Oral Cancer/normal/011.jpeg,normal
+/content/drive/MyDrive/Dataset Oral Cancer/normal/006.jpeg,normal
+/content/drive/MyDrive/Dataset Oral Cancer/normal/046.jpeg,normal
+/content/drive/MyDrive/Dataset Oral Cancer/normal/003.jpeg,normal
+/content/drive/MyDrive/Dataset Oral Cancer/normal/044.jpeg,normal
+/content/drive/MyDrive/Dataset Oral Cancer/normal/017.jpeg,normal
+/content/drive/MyDrive/Dataset Oral Cancer/normal/023.jpeg,normal
+/content/drive/MyDrive/Dataset Oral Cancer/normal/047.jpeg,normal
+/content/drive/MyDrive/Dataset Oral Cancer/normal/001.jpeg,normal
+/content/drive/MyDrive/Dataset Oral Cancer/normal/040.jpeg,normal
+/content/drive/MyDrive/Dataset Oral Cancer/normal/002.jpeg,normal
+/content/drive/MyDrive/Dataset Oral Cancer/normal/033.jpeg,normal
+/content/drive/MyDrive/Dataset Oral Cancer/normal/038.jpeg,normal
+/content/drive/MyDrive/Dataset Oral Cancer/normal/049.jpeg,normal
+/content/drive/MyDrive/Dataset Oral Cancer/normal/041.jpeg,normal
+/content/drive/MyDrive/Dataset Oral Cancer/normal/050.jpeg,normal
+/content/drive/MyDrive/Dataset Oral Cancer/normal/015.jpeg,normal
+/content/drive/MyDrive/Dataset Oral Cancer/normal/012.jpeg,normal
+/content/drive/MyDrive/Dataset Oral Cancer/normal/010.jpeg,normal
+/content/drive/MyDrive/Dataset Oral Cancer/normal/034.jpeg,normal
+/content/drive/MyDrive/Dataset Oral Cancer/normal/007.jpeg,normal
+/content/drive/MyDrive/Dataset Oral Cancer/normal/036.jpeg,normal
+/content/drive/MyDrive/Dataset Oral Cancer/normal/016.jpeg,normal
+/content/drive/MyDrive/Dataset Oral Cancer/normal/024.jpeg,normal
+/content/drive/MyDrive/Dataset Oral Cancer/normal/027.jpeg,normal
+/content/drive/MyDrive/Dataset Oral Cancer/normal/111.jpeg,normal
+/content/drive/MyDrive/Dataset Oral Cancer/normal/155.jpeg,normal
+/content/drive/MyDrive/Dataset Oral Cancer/normal/130.jpeg,normal
+/content/drive/MyDrive/Dataset Oral Cancer/normal/159.jpeg,normal
+/content/drive/MyDrive/Dataset Oral Cancer/normal/101.jpeg,normal
+/content/drive/MyDrive/Dataset Oral Cancer/normal/122.jpeg,normal
+/content/drive/MyDrive/Dataset Oral Cancer/normal/121.jpeg,normal
+/content/drive/MyDrive/Dataset Oral Cancer/normal/151.jpeg,normal
+/content/drive/MyDrive/Dataset Oral Cancer/normal/091.jpeg,normal
+/content/drive/MyDrive/Dataset Oral Cancer/normal/094.jpeg,normal
+/content/drive/MyDrive/Dataset Oral Cancer/normal/142.jpeg,normal
+/content/drive/MyDrive/Dataset Oral Cancer/normal/074.jpeg,normal
+/content/drive/MyDrive/Dataset Oral Cancer/normal/087.jpeg,normal
+/content/drive/MyDrive/Dataset Oral Cancer/normal/113.jpeg,normal
+/content/drive/MyDrive/Dataset Oral Cancer/normal/123.jpeg,normal
+/content/drive/MyDrive/Dataset Oral Cancer/normal/070.jpeg,normal
+/content/drive/MyDrive/Dataset Oral Cancer/normal/160.jpeg,normal
+/content/drive/MyDrive/Dataset Oral Cancer/normal/147.jpeg,normal
+/content/drive/MyDrive/Dataset Oral Cancer/normal/065.jpeg,normal
+/content/drive/MyDrive/Dataset Oral Cancer/normal/098.jpeg,normal
+/content/drive/MyDrive/Dataset Oral Cancer/normal/063.jpeg,normal
+/content/drive/MyDrive/Dataset Oral Cancer/normal/149.jpeg,normal
+/content/drive/MyDrive/Dataset Oral Cancer/normal/090.jpeg,normal
+/content/drive/MyDrive/Dataset Oral Cancer/normal/127.jpeg,normal
+/content/drive/MyDrive/Dataset Oral Cancer/normal/145.jpeg,normal
+/content/drive/MyDrive/Dataset Oral Cancer/normal/075.jpeg,normal
+/content/drive/MyDrive/Dataset Oral Cancer/normal/144.jpeg,normal
+/content/drive/MyDrive/Dataset Oral Cancer/normal/136.jpeg,normal
+/content/drive/MyDrive/Dataset Oral Cancer/normal/067.jpeg,normal
+/content/drive/MyDrive/Dataset Oral Cancer/normal/150.jpeg,normal
+/content/drive/MyDrive/Dataset Oral Cancer/normal/161.jpeg,normal
+/content/drive/MyDrive/Dataset Oral Cancer/normal/103.jpeg,normal
+/content/drive/MyDrive/Dataset Oral Cancer/normal/163.jpeg,normal
+/content/drive/MyDrive/Dataset Oral Cancer/normal/154.jpeg,normal
+/content/drive/MyDrive/Dataset Oral Cancer/normal/119.jpeg,normal
+/content/drive/MyDrive/Dataset Oral Cancer/normal/139.jpeg,normal
+/content/drive/MyDrive/Dataset Oral Cancer/normal/079.jpeg,normal
+/content/drive/MyDrive/Dataset Oral Cancer/normal/146.jpeg,normal
+/content/drive/MyDrive/Dataset Oral Cancer/normal/12654650-6954555-image-a-22_1556101508834-Edited.jpg,normal
+/content/drive/MyDrive/Dataset Oral Cancer/normal/138.jpeg,normal
+/content/drive/MyDrive/Dataset Oral Cancer/normal/140.jpeg,normal
+/content/drive/MyDrive/Dataset Oral Cancer/normal/088.jpeg,normal
+/content/drive/MyDrive/Dataset Oral Cancer/normal/084.jpeg,normal
+/content/drive/MyDrive/Dataset Oral Cancer/normal/135.jpeg,normal
+/content/drive/MyDrive/Dataset Oral Cancer/normal/059.jpeg,normal
+/content/drive/MyDrive/Dataset Oral Cancer/normal/128.jpeg,normal
+/content/drive/MyDrive/Dataset Oral Cancer/normal/107.jpeg,normal
+/content/drive/MyDrive/Dataset Oral Cancer/normal/076.jpeg,normal
+/content/drive/MyDrive/Dataset Oral Cancer/normal/072.jpeg,normal
+/content/drive/MyDrive/Dataset Oral Cancer/normal/117.jpeg,normal
+/content/drive/MyDrive/Dataset Oral Cancer/normal/116.jpeg,normal
+/content/drive/MyDrive/Dataset Oral Cancer/normal/125.jpeg,normal
+/content/drive/MyDrive/Dataset Oral Cancer/normal/062.jpeg,normal
+/content/drive/MyDrive/Dataset Oral Cancer/normal/102.jpeg,normal
+/content/drive/MyDrive/Dataset Oral Cancer/normal/083.jpeg,normal
+/content/drive/MyDrive/Dataset Oral Cancer/normal/080.jpeg,normal
+/content/drive/MyDrive/Dataset Oral Cancer/normal/143.jpeg,normal
+/content/drive/MyDrive/Dataset Oral Cancer/normal/095.jpeg,normal
+/content/drive/MyDrive/Dataset Oral Cancer/normal/086.jpeg,normal
+/content/drive/MyDrive/Dataset Oral Cancer/normal/120.jpeg,normal
+/content/drive/MyDrive/Dataset Oral Cancer/normal/141.jpeg,normal
+/content/drive/MyDrive/Dataset Oral Cancer/normal/112.jpeg,normal
+/content/drive/MyDrive/Dataset Oral Cancer/normal/153.jpeg,normal
+/content/drive/MyDrive/Dataset Oral Cancer/normal/051.jpeg,normal
+/content/drive/MyDrive/Dataset Oral Cancer/normal/053.jpeg,normal
+/content/drive/MyDrive/Dataset Oral Cancer/normal/082.jpeg,normal
+/content/drive/MyDrive/Dataset Oral Cancer/normal/114.jpeg,normal
+/content/drive/MyDrive/Dataset Oral Cancer/normal/126.jpeg,normal
+/content/drive/MyDrive/Dataset Oral Cancer/normal/055.jpeg,normal
+/content/drive/MyDrive/Dataset Oral Cancer/normal/131.jpeg,normal
+/content/drive/MyDrive/Dataset Oral Cancer/normal/110.jpeg,normal
+/content/drive/MyDrive/Dataset Oral Cancer/normal/115.jpeg,normal
+/content/drive/MyDrive/Dataset Oral Cancer/normal/118.jpeg,normal
+/content/drive/MyDrive/Dataset Oral Cancer/normal/061.jpeg,normal
+/content/drive/MyDrive/Dataset Oral Cancer/normal/104.jpeg,normal
+/content/drive/MyDrive/Dataset Oral Cancer/normal/057.jpeg,normal
+/content/drive/MyDrive/Dataset Oral Cancer/normal/100.jpeg,normal
+/content/drive/MyDrive/Dataset Oral Cancer/normal/157.jpeg,normal
+/content/drive/MyDrive/Dataset Oral Cancer/normal/092.jpeg,normal
+/content/drive/MyDrive/Dataset Oral Cancer/normal/129.jpeg,normal
+/content/drive/MyDrive/Dataset Oral Cancer/normal/096.jpeg,normal
+/content/drive/MyDrive/Dataset Oral Cancer/normal/097.jpeg,normal
+/content/drive/MyDrive/Dataset Oral Cancer/normal/099.jpeg,normal
+/content/drive/MyDrive/Dataset Oral Cancer/normal/056.jpeg,normal
+/content/drive/MyDrive/Dataset Oral Cancer/normal/162.jpeg,normal
+/content/drive/MyDrive/Dataset Oral Cancer/normal/064.jpeg,normal
+/content/drive/MyDrive/Dataset Oral Cancer/normal/164.jpeg,normal
+/content/drive/MyDrive/Dataset Oral Cancer/normal/081.jpeg,normal
+/content/drive/MyDrive/Dataset Oral Cancer/normal/089.jpeg,normal
+/content/drive/MyDrive/Dataset Oral Cancer/normal/093.jpeg,normal
+/content/drive/MyDrive/Dataset Oral Cancer/normal/052.jpeg,normal
+/content/drive/MyDrive/Dataset Oral Cancer/normal/152.jpeg,normal
+/content/drive/MyDrive/Dataset Oral Cancer/normal/148.jpeg,normal
+/content/drive/MyDrive/Dataset Oral Cancer/normal/106.jpeg,normal
+/content/drive/MyDrive/Dataset Oral Cancer/normal/132.jpeg,normal
+/content/drive/MyDrive/Dataset Oral Cancer/normal/105.jpeg,normal
+/content/drive/MyDrive/Dataset Oral Cancer/normal/078.jpeg,normal
+/content/drive/MyDrive/Dataset Oral Cancer/normal/071.jpeg,normal
+/content/drive/MyDrive/Dataset Oral Cancer/normal/073.jpeg,normal
+/content/drive/MyDrive/Dataset Oral Cancer/normal/054.jpeg,normal
+/content/drive/MyDrive/Dataset Oral Cancer/normal/069.jpeg,normal
+/content/drive/MyDrive/Dataset Oral Cancer/normal/108.jpeg,normal
+/content/drive/MyDrive/Dataset Oral Cancer/normal/158.jpeg,normal
+/content/drive/MyDrive/Dataset Oral Cancer/normal/109.jpeg,normal
+/content/drive/MyDrive/Dataset Oral Cancer/normal/133.jpeg,normal
+/content/drive/MyDrive/Dataset Oral Cancer/normal/134.jpeg,normal
+/content/drive/MyDrive/Dataset Oral Cancer/normal/124.jpeg,normal
+/content/drive/MyDrive/Dataset Oral Cancer/normal/085.jpeg,normal
+/content/drive/MyDrive/Dataset Oral Cancer/normal/066.jpeg,normal
+/content/drive/MyDrive/Dataset Oral Cancer/normal/077.jpeg,normal
+/content/drive/MyDrive/Dataset Oral Cancer/normal/137.jpeg,normal
+/content/drive/MyDrive/Dataset Oral Cancer/normal/060.jpeg,normal
+/content/drive/MyDrive/Dataset Oral Cancer/normal/058.jpeg,normal
+/content/drive/MyDrive/Dataset Oral Cancer/normal/156.jpeg,normal
+/content/drive/MyDrive/Dataset Oral Cancer/normal/068.jpeg,normal
+/content/drive/MyDrive/Dataset Oral Cancer/normal/170.jpeg,normal
+/content/drive/MyDrive/Dataset Oral Cancer/normal/217.jpeg,normal
+/content/drive/MyDrive/Dataset Oral Cancer/normal/215.jpeg,normal
+/content/drive/MyDrive/Dataset Oral Cancer/normal/20200314_1129242.jpg,normal
+/content/drive/MyDrive/Dataset Oral Cancer/normal/20200303_1146172.jpg,normal
+/content/drive/MyDrive/Dataset Oral Cancer/normal/212.jpeg,normal
+/content/drive/MyDrive/Dataset Oral Cancer/normal/20200314_1130302.jpg,normal
+/content/drive/MyDrive/Dataset Oral Cancer/normal/188.jpeg,normal
+/content/drive/MyDrive/Dataset Oral Cancer/normal/197.jpeg,normal
+/content/drive/MyDrive/Dataset Oral Cancer/normal/176.jpeg,normal
+/content/drive/MyDrive/Dataset Oral Cancer/normal/20200314_1130304.jpg,normal
+/content/drive/MyDrive/Dataset Oral Cancer/normal/20200314_1123332.jpg,normal
+/content/drive/MyDrive/Dataset Oral Cancer/normal/173.jpeg,normal
+/content/drive/MyDrive/Dataset Oral Cancer/normal/196.jpeg,normal
+/content/drive/MyDrive/Dataset Oral Cancer/normal/204.jpeg,normal
+/content/drive/MyDrive/Dataset Oral Cancer/normal/222.jpeg,normal
+/content/drive/MyDrive/Dataset Oral Cancer/normal/20191129_1750382.jpg,normal
+/content/drive/MyDrive/Dataset Oral Cancer/normal/185.jpeg,normal
+/content/drive/MyDrive/Dataset Oral Cancer/normal/190.jpeg,normal
+/content/drive/MyDrive/Dataset Oral Cancer/normal/200.jpeg,normal
+/content/drive/MyDrive/Dataset Oral Cancer/normal/203.jpeg,normal
+/content/drive/MyDrive/Dataset Oral Cancer/normal/180.jpeg,normal
+/content/drive/MyDrive/Dataset Oral Cancer/normal/177.jpeg,normal
+/content/drive/MyDrive/Dataset Oral Cancer/normal/166.jpeg,normal
+/content/drive/MyDrive/Dataset Oral Cancer/normal/210.jpeg,normal
+/content/drive/MyDrive/Dataset Oral Cancer/normal/165.jpeg,normal
+/content/drive/MyDrive/Dataset Oral Cancer/normal/182.jpeg,normal
+/content/drive/MyDrive/Dataset Oral Cancer/normal/211.jpeg,normal
+/content/drive/MyDrive/Dataset Oral Cancer/normal/189.jpeg,normal
+/content/drive/MyDrive/Dataset Oral Cancer/normal/167.jpeg,normal
+/content/drive/MyDrive/Dataset Oral Cancer/normal/213.jpeg,normal
+/content/drive/MyDrive/Dataset Oral Cancer/normal/224.jpeg,normal
+/content/drive/MyDrive/Dataset Oral Cancer/normal/175.jpeg,normal
+/content/drive/MyDrive/Dataset Oral Cancer/normal/194.jpeg,normal
+/content/drive/MyDrive/Dataset Oral Cancer/normal/20190916_1420142.jpg,normal
+/content/drive/MyDrive/Dataset Oral Cancer/normal/20191129_1825022.jpg,normal
+/content/drive/MyDrive/Dataset Oral Cancer/normal/20191129_1827192.jpg,normal
+/content/drive/MyDrive/Dataset Oral Cancer/normal/206.jpeg,normal
+/content/drive/MyDrive/Dataset Oral Cancer/normal/184.jpeg,normal
+/content/drive/MyDrive/Dataset Oral Cancer/normal/171.jpeg,normal
+/content/drive/MyDrive/Dataset Oral Cancer/normal/174.jpeg,normal
+/content/drive/MyDrive/Dataset Oral Cancer/normal/172.jpeg,normal
+/content/drive/MyDrive/Dataset Oral Cancer/normal/221.jpeg,normal
+/content/drive/MyDrive/Dataset Oral Cancer/normal/179.jpeg,normal
+/content/drive/MyDrive/Dataset Oral Cancer/normal/223.jpeg,normal
+/content/drive/MyDrive/Dataset Oral Cancer/normal/191.jpeg,normal
+/content/drive/MyDrive/Dataset Oral Cancer/normal/20200314_1117432.jpg,normal
+/content/drive/MyDrive/Dataset Oral Cancer/normal/201.jpeg,normal
+/content/drive/MyDrive/Dataset Oral Cancer/normal/208.jpeg,normal
+/content/drive/MyDrive/Dataset Oral Cancer/normal/205.jpeg,normal
+/content/drive/MyDrive/Dataset Oral Cancer/normal/192.jpeg,normal
+/content/drive/MyDrive/Dataset Oral Cancer/normal/20200314_1129245.jpg,normal
+/content/drive/MyDrive/Dataset Oral Cancer/normal/218.jpeg,normal
+/content/drive/MyDrive/Dataset Oral Cancer/normal/220.jpeg,normal
+/content/drive/MyDrive/Dataset Oral Cancer/normal/199.jpeg,normal
+/content/drive/MyDrive/Dataset Oral Cancer/normal/187.jpeg,normal
+/content/drive/MyDrive/Dataset Oral Cancer/normal/195.jpeg,normal
+/content/drive/MyDrive/Dataset Oral Cancer/normal/20200314_1125032.jpg,normal
+/content/drive/MyDrive/Dataset Oral Cancer/normal/186.jpeg,normal
+/content/drive/MyDrive/Dataset Oral Cancer/normal/219.jpeg,normal
+/content/drive/MyDrive/Dataset Oral Cancer/normal/202.jpeg,normal
+/content/drive/MyDrive/Dataset Oral Cancer/normal/20200314_1117132.jpg,normal
+/content/drive/MyDrive/Dataset Oral Cancer/normal/168.jpeg,normal
+/content/drive/MyDrive/Dataset Oral Cancer/normal/20200302_1725362.jpg,normal
+/content/drive/MyDrive/Dataset Oral Cancer/normal/169.jpeg,normal
+/content/drive/MyDrive/Dataset Oral Cancer/normal/193.jpeg,normal
+/content/drive/MyDrive/Dataset Oral Cancer/normal/207.jpeg,normal
+/content/drive/MyDrive/Dataset Oral Cancer/normal/209.jpeg,normal
+/content/drive/MyDrive/Dataset Oral Cancer/normal/20200314_1129243.jpg,normal
+/content/drive/MyDrive/Dataset Oral Cancer/normal/198.jpeg,normal
+/content/drive/MyDrive/Dataset Oral Cancer/normal/178.jpeg,normal
+/content/drive/MyDrive/Dataset Oral Cancer/normal/346.jpeg,normal
+/content/drive/MyDrive/Dataset Oral Cancer/normal/334.jpeg,normal
+/content/drive/MyDrive/Dataset Oral Cancer/normal/293.jpeg,normal
+/content/drive/MyDrive/Dataset Oral Cancer/normal/274.jpeg,normal
+/content/drive/MyDrive/Dataset Oral Cancer/normal/235.jpeg,normal
+/content/drive/MyDrive/Dataset Oral Cancer/normal/306.jpeg,normal
+/content/drive/MyDrive/Dataset Oral Cancer/normal/319.jpeg,normal
+/content/drive/MyDrive/Dataset Oral Cancer/normal/307.jpeg,normal
+/content/drive/MyDrive/Dataset Oral Cancer/normal/344.jpeg,normal
+/content/drive/MyDrive/Dataset Oral Cancer/normal/290.jpeg,normal
+/content/drive/MyDrive/Dataset Oral Cancer/normal/313.jpeg,normal
+/content/drive/MyDrive/Dataset Oral Cancer/normal/309.jpeg,normal
+/content/drive/MyDrive/Dataset Oral Cancer/normal/299.jpeg,normal
+/content/drive/MyDrive/Dataset Oral Cancer/normal/252.jpeg,normal
+/content/drive/MyDrive/Dataset Oral Cancer/normal/304.jpeg,normal
+/content/drive/MyDrive/Dataset Oral Cancer/normal/341.jpeg,normal
+/content/drive/MyDrive/Dataset Oral Cancer/normal/316.jpeg,normal
+/content/drive/MyDrive/Dataset Oral Cancer/normal/300.jpeg,normal
+/content/drive/MyDrive/Dataset Oral Cancer/normal/322.jpeg,normal
+/content/drive/MyDrive/Dataset Oral Cancer/normal/236.jpeg,normal
+/content/drive/MyDrive/Dataset Oral Cancer/normal/328.jpeg,normal
+/content/drive/MyDrive/Dataset Oral Cancer/normal/335.jpeg,normal
+/content/drive/MyDrive/Dataset Oral Cancer/normal/333.jpeg,normal
+/content/drive/MyDrive/Dataset Oral Cancer/normal/272.jpeg,normal
+/content/drive/MyDrive/Dataset Oral Cancer/normal/354.jpeg,normal
+/content/drive/MyDrive/Dataset Oral Cancer/normal/338.jpeg,normal
+/content/drive/MyDrive/Dataset Oral Cancer/normal/244.jpeg,normal
+/content/drive/MyDrive/Dataset Oral Cancer/normal/291.jpeg,normal
+/content/drive/MyDrive/Dataset Oral Cancer/normal/288.jpeg,normal
+/content/drive/MyDrive/Dataset Oral Cancer/normal/289.jpeg,normal
+/content/drive/MyDrive/Dataset Oral Cancer/normal/247.jpeg,normal
+/content/drive/MyDrive/Dataset Oral Cancer/normal/230.jpeg,normal
+/content/drive/MyDrive/Dataset Oral Cancer/normal/284.jpeg,normal
+/content/drive/MyDrive/Dataset Oral Cancer/normal/277.jpeg,normal
+/content/drive/MyDrive/Dataset Oral Cancer/normal/260.jpeg,normal
+/content/drive/MyDrive/Dataset Oral Cancer/normal/278.jpeg,normal
+/content/drive/MyDrive/Dataset Oral Cancer/normal/323.jpeg,normal
+/content/drive/MyDrive/Dataset Oral Cancer/normal/353.jpeg,normal
+/content/drive/MyDrive/Dataset Oral Cancer/normal/242.jpeg,normal
+/content/drive/MyDrive/Dataset Oral Cancer/normal/263.jpeg,normal
+/content/drive/MyDrive/Dataset Oral Cancer/normal/275.jpeg,normal
+/content/drive/MyDrive/Dataset Oral Cancer/normal/261.jpeg,normal
+/content/drive/MyDrive/Dataset Oral Cancer/normal/243.jpeg,normal
+/content/drive/MyDrive/Dataset Oral Cancer/normal/273.jpeg,normal
+/content/drive/MyDrive/Dataset Oral Cancer/normal/257.jpeg,normal
+/content/drive/MyDrive/Dataset Oral Cancer/normal/239.jpeg,normal
+/content/drive/MyDrive/Dataset Oral Cancer/normal/332.jpeg,normal
+/content/drive/MyDrive/Dataset Oral Cancer/normal/302.jpeg,normal
+/content/drive/MyDrive/Dataset Oral Cancer/normal/246.jpeg,normal
+/content/drive/MyDrive/Dataset Oral Cancer/normal/271.jpeg,normal
+/content/drive/MyDrive/Dataset Oral Cancer/normal/324.jpeg,normal
+/content/drive/MyDrive/Dataset Oral Cancer/normal/318.jpeg,normal
+/content/drive/MyDrive/Dataset Oral Cancer/normal/340.jpeg,normal
+/content/drive/MyDrive/Dataset Oral Cancer/normal/270.jpeg,normal
+/content/drive/MyDrive/Dataset Oral Cancer/normal/231.jpeg,normal
+/content/drive/MyDrive/Dataset Oral Cancer/normal/331.jpeg,normal
+/content/drive/MyDrive/Dataset Oral Cancer/normal/228.jpeg,normal
+/content/drive/MyDrive/Dataset Oral Cancer/normal/330.jpeg,normal
+/content/drive/MyDrive/Dataset Oral Cancer/normal/296.jpeg,normal
+/content/drive/MyDrive/Dataset Oral Cancer/normal/315.jpeg,normal
+/content/drive/MyDrive/Dataset Oral Cancer/normal/326.jpeg,normal
+/content/drive/MyDrive/Dataset Oral Cancer/normal/264.jpeg,normal
+/content/drive/MyDrive/Dataset Oral Cancer/normal/233.jpeg,normal
+/content/drive/MyDrive/Dataset Oral Cancer/normal/240.jpeg,normal
+/content/drive/MyDrive/Dataset Oral Cancer/normal/329.jpeg,normal
+/content/drive/MyDrive/Dataset Oral Cancer/normal/298.jpeg,normal
+/content/drive/MyDrive/Dataset Oral Cancer/normal/245.jpeg,normal
+/content/drive/MyDrive/Dataset Oral Cancer/normal/232.jpeg,normal
+/content/drive/MyDrive/Dataset Oral Cancer/normal/283.jpeg,normal
+/content/drive/MyDrive/Dataset Oral Cancer/normal/349.jpeg,normal
+/content/drive/MyDrive/Dataset Oral Cancer/normal/311.jpeg,normal
+/content/drive/MyDrive/Dataset Oral Cancer/normal/321.jpeg,normal
+/content/drive/MyDrive/Dataset Oral Cancer/normal/345.jpeg,normal
+/content/drive/MyDrive/Dataset Oral Cancer/normal/285.jpeg,normal
+/content/drive/MyDrive/Dataset Oral Cancer/normal/248.jpeg,normal
+/content/drive/MyDrive/Dataset Oral Cancer/normal/269.jpeg,normal
+/content/drive/MyDrive/Dataset Oral Cancer/normal/226.jpeg,normal
+/content/drive/MyDrive/Dataset Oral Cancer/normal/352.jpeg,normal
+/content/drive/MyDrive/Dataset Oral Cancer/normal/286.jpeg,normal
+/content/drive/MyDrive/Dataset Oral Cancer/normal/225.jpeg,normal
+/content/drive/MyDrive/Dataset Oral Cancer/normal/280.jpeg,normal
+/content/drive/MyDrive/Dataset Oral Cancer/normal/343.jpeg,normal
+/content/drive/MyDrive/Dataset Oral Cancer/normal/339.jpeg,normal
+/content/drive/MyDrive/Dataset Oral Cancer/normal/267.jpeg,normal
+/content/drive/MyDrive/Dataset Oral Cancer/normal/314.jpeg,normal
+/content/drive/MyDrive/Dataset Oral Cancer/normal/310.jpeg,normal
+/content/drive/MyDrive/Dataset Oral Cancer/normal/262.jpeg,normal
+/content/drive/MyDrive/Dataset Oral Cancer/normal/348.jpeg,normal
+/content/drive/MyDrive/Dataset Oral Cancer/normal/301.jpeg,normal
+/content/drive/MyDrive/Dataset Oral Cancer/normal/238.jpeg,normal
+/content/drive/MyDrive/Dataset Oral Cancer/normal/305.jpeg,normal
+/content/drive/MyDrive/Dataset Oral Cancer/normal/253.jpeg,normal
+/content/drive/MyDrive/Dataset Oral Cancer/normal/237.jpeg,normal
+/content/drive/MyDrive/Dataset Oral Cancer/normal/327.jpeg,normal
+/content/drive/MyDrive/Dataset Oral Cancer/normal/255.jpeg,normal
+/content/drive/MyDrive/Dataset Oral Cancer/normal/254.jpeg,normal
+/content/drive/MyDrive/Dataset Oral Cancer/normal/268.jpeg,normal
+/content/drive/MyDrive/Dataset Oral Cancer/normal/266.jpeg,normal
+/content/drive/MyDrive/Dataset Oral Cancer/normal/350.jpeg,normal
+/content/drive/MyDrive/Dataset Oral Cancer/normal/292.jpeg,normal
+/content/drive/MyDrive/Dataset Oral Cancer/normal/325.jpeg,normal
+/content/drive/MyDrive/Dataset Oral Cancer/normal/276.jpeg,normal
+/content/drive/MyDrive/Dataset Oral Cancer/normal/227.jpeg,normal
+/content/drive/MyDrive/Dataset Oral Cancer/normal/229.jpeg,normal
+/content/drive/MyDrive/Dataset Oral Cancer/normal/347.jpeg,normal
+/content/drive/MyDrive/Dataset Oral Cancer/normal/265.jpeg,normal
+/content/drive/MyDrive/Dataset Oral Cancer/normal/250.jpeg,normal
+/content/drive/MyDrive/Dataset Oral Cancer/normal/294.jpeg,normal
+/content/drive/MyDrive/Dataset Oral Cancer/normal/279.jpeg,normal
+/content/drive/MyDrive/Dataset Oral Cancer/normal/258.jpeg,normal
+/content/drive/MyDrive/Dataset Oral Cancer/normal/317.jpeg,normal
+/content/drive/MyDrive/Dataset Oral Cancer/normal/320.jpeg,normal
+/content/drive/MyDrive/Dataset Oral Cancer/normal/234.jpeg,normal
+/content/drive/MyDrive/Dataset Oral Cancer/normal/337.jpeg,normal
+/content/drive/MyDrive/Dataset Oral Cancer/normal/355.jpeg,normal
+/content/drive/MyDrive/Dataset Oral Cancer/normal/297.jpeg,normal
+/content/drive/MyDrive/Dataset Oral Cancer/normal/251.jpeg,normal
+/content/drive/MyDrive/Dataset Oral Cancer/normal/295.jpeg,normal
+/content/drive/MyDrive/Dataset Oral Cancer/normal/351.jpeg,normal
+/content/drive/MyDrive/Dataset Oral Cancer/normal/303.jpeg,normal
+/content/drive/MyDrive/Dataset Oral Cancer/normal/287.jpeg,normal
+/content/drive/MyDrive/Dataset Oral Cancer/normal/336.jpeg,normal
+/content/drive/MyDrive/Dataset Oral Cancer/normal/256.jpeg,normal
+/content/drive/MyDrive/Dataset Oral Cancer/normal/342.jpeg,normal
+/content/drive/MyDrive/Dataset Oral Cancer/normal/312.jpeg,normal
+/content/drive/MyDrive/Dataset Oral Cancer/normal/241.jpeg,normal
+/content/drive/MyDrive/Dataset Oral Cancer/normal/259.jpeg,normal
+/content/drive/MyDrive/Dataset Oral Cancer/normal/308.jpeg,normal
+/content/drive/MyDrive/Dataset Oral Cancer/normal/249.jpeg,normal
+/content/drive/MyDrive/Dataset Oral Cancer/normal/281.jpeg,normal
+/content/drive/MyDrive/Dataset Oral Cancer/normal/282.jpeg,normal
+/content/drive/MyDrive/Dataset Oral Cancer/normal/370.jpeg,normal
+/content/drive/MyDrive/Dataset Oral Cancer/normal/371.jpeg,normal
+/content/drive/MyDrive/Dataset Oral Cancer/normal/380.jpeg,normal
+/content/drive/MyDrive/Dataset Oral Cancer/normal/392.jpeg,normal
+/content/drive/MyDrive/Dataset Oral Cancer/normal/428.jpeg,normal
+/content/drive/MyDrive/Dataset Oral Cancer/normal/401.jpeg,normal
+/content/drive/MyDrive/Dataset Oral Cancer/normal/photo_2025-01-26_17-19-28.jpg,normal
+/content/drive/MyDrive/Dataset Oral Cancer/normal/photo_2025-01-26_16-40-32.jpg,normal
+/content/drive/MyDrive/Dataset Oral Cancer/normal/download (3).jpeg,normal
+/content/drive/MyDrive/Dataset Oral Cancer/normal/face_facial_hair_fine_looking_guy_man_model_person_portrait-1563283.jpg,normal
+/content/drive/MyDrive/Dataset Oral Cancer/normal/download (1).jpeg,normal
+/content/drive/MyDrive/Dataset Oral Cancer/normal/442.jpeg,normal
+/content/drive/MyDrive/Dataset Oral Cancer/normal/405.jpeg,normal
+/content/drive/MyDrive/Dataset Oral Cancer/normal/384.jpeg,normal
+/content/drive/MyDrive/Dataset Oral Cancer/normal/388x210-White_Bumps_on_Lips.jpg,normal
+/content/drive/MyDrive/Dataset Oral Cancer/normal/406.jpeg,normal
+/content/drive/MyDrive/Dataset Oral Cancer/normal/379.jpeg,normal
+/content/drive/MyDrive/Dataset Oral Cancer/normal/407.jpeg,normal
+/content/drive/MyDrive/Dataset Oral Cancer/normal/IMG_57592.jpg,normal
+/content/drive/MyDrive/Dataset Oral Cancer/normal/429.jpeg,normal
+/content/drive/MyDrive/Dataset Oral Cancer/normal/402.jpeg,normal
+/content/drive/MyDrive/Dataset Oral Cancer/normal/437.jpeg,normal
+/content/drive/MyDrive/Dataset Oral Cancer/normal/377.jpeg,normal
+/content/drive/MyDrive/Dataset Oral Cancer/normal/419.jpeg,normal
+/content/drive/MyDrive/Dataset Oral Cancer/normal/385.jpeg,normal
+/content/drive/MyDrive/Dataset Oral Cancer/normal/435.jpeg,normal
+/content/drive/MyDrive/Dataset Oral Cancer/normal/440.jpeg,normal
+/content/drive/MyDrive/Dataset Oral Cancer/normal/360.jpeg,normal
+/content/drive/MyDrive/Dataset Oral Cancer/normal/438.jpeg,normal
+/content/drive/MyDrive/Dataset Oral Cancer/normal/425.jpeg,normal
+/content/drive/MyDrive/Dataset Oral Cancer/normal/358.jpeg,normal
+/content/drive/MyDrive/Dataset Oral Cancer/normal/420.jpeg,normal
+/content/drive/MyDrive/Dataset Oral Cancer/normal/441.jpeg,normal
+/content/drive/MyDrive/Dataset Oral Cancer/normal/416.jpeg,normal
+/content/drive/MyDrive/Dataset Oral Cancer/normal/443.jpeg,normal
+/content/drive/MyDrive/Dataset Oral Cancer/normal/photo_2025-01-26_17-19-17.jpg,normal
+/content/drive/MyDrive/Dataset Oral Cancer/normal/431.jpeg,normal
+/content/drive/MyDrive/Dataset Oral Cancer/normal/DSC_02063.jpg,normal
+/content/drive/MyDrive/Dataset Oral Cancer/normal/445.jpeg,normal
+/content/drive/MyDrive/Dataset Oral Cancer/normal/SS.OralHealth.SDSmiles_smaller-1.jpg,normal
+/content/drive/MyDrive/Dataset Oral Cancer/normal/photo_2025-01-26_17-19-37.jpg,normal
+/content/drive/MyDrive/Dataset Oral Cancer/normal/download.jpg,normal
+/content/drive/MyDrive/Dataset Oral Cancer/normal/376.jpeg,normal
+/content/drive/MyDrive/Dataset Oral Cancer/normal/446.jpeg,normal
+/content/drive/MyDrive/Dataset Oral Cancer/normal/403.jpeg,normal
+/content/drive/MyDrive/Dataset Oral Cancer/normal/372.jpeg,normal
+/content/drive/MyDrive/Dataset Oral Cancer/normal/412.jpeg,normal
+/content/drive/MyDrive/Dataset Oral Cancer/normal/373.jpeg,normal
+/content/drive/MyDrive/Dataset Oral Cancer/normal/396.jpeg,normal
+/content/drive/MyDrive/Dataset Oral Cancer/normal/DSC_3536_2.jpg,normal
+/content/drive/MyDrive/Dataset Oral Cancer/normal/374.jpeg,normal
+/content/drive/MyDrive/Dataset Oral Cancer/normal/399.jpeg,normal
+/content/drive/MyDrive/Dataset Oral Cancer/normal/398.jpeg,normal
+/content/drive/MyDrive/Dataset Oral Cancer/normal/883.jpg,normal
+/content/drive/MyDrive/Dataset Oral Cancer/normal/R333.jpg,normal
+/content/drive/MyDrive/Dataset Oral Cancer/normal/426.jpeg,normal
+/content/drive/MyDrive/Dataset Oral Cancer/normal/397.jpeg,normal
+/content/drive/MyDrive/Dataset Oral Cancer/normal/410.jpeg,normal
+/content/drive/MyDrive/Dataset Oral Cancer/normal/400.jpeg,normal
+/content/drive/MyDrive/Dataset Oral Cancer/normal/422.jpeg,normal
+/content/drive/MyDrive/Dataset Oral Cancer/normal/356.jpeg,normal
+/content/drive/MyDrive/Dataset Oral Cancer/normal/382.jpeg,normal
+/content/drive/MyDrive/Dataset Oral Cancer/normal/DSC_01992.jpg,normal
+/content/drive/MyDrive/Dataset Oral Cancer/normal/_tongue.jpg,normal
+/content/drive/MyDrive/Dataset Oral Cancer/normal/dataset__654-What_Does_Mouth_Cancer_Look-642x361-Side-2.jpg,normal
+/content/drive/MyDrive/Dataset Oral Cancer/normal/Oral-Health.jpg,normal
+/content/drive/MyDrive/Dataset Oral Cancer/normal/393.jpeg,normal
+/content/drive/MyDrive/Dataset Oral Cancer/normal/423.jpeg,normal
+/content/drive/MyDrive/Dataset Oral Cancer/normal/389.jpeg,normal
+/content/drive/MyDrive/Dataset Oral Cancer/normal/390.jpeg,normal
+/content/drive/MyDrive/Dataset Oral Cancer/normal/R.jpg,normal
+/content/drive/MyDrive/Dataset Oral Cancer/normal/433.jpeg,normal
+/content/drive/MyDrive/Dataset Oral Cancer/normal/biopsy-oral-cancer.jpg,normal
+/content/drive/MyDrive/Dataset Oral Cancer/normal/388.jpeg,normal
+/content/drive/MyDrive/Dataset Oral Cancer/normal/IMG_20170301_1115506262.jpg,normal
+/content/drive/MyDrive/Dataset Oral Cancer/normal/WP_20141221_0012.jpg,normal
+/content/drive/MyDrive/Dataset Oral Cancer/normal/386.jpeg,normal
+/content/drive/MyDrive/Dataset Oral Cancer/normal/383.jpeg,normal
+/content/drive/MyDrive/Dataset Oral Cancer/normal/404.jpeg,normal
+/content/drive/MyDrive/Dataset Oral Cancer/normal/436.jpeg,normal
+/content/drive/MyDrive/Dataset Oral Cancer/normal/368.jpeg,normal
+/content/drive/MyDrive/Dataset Oral Cancer/normal/363.jpeg,normal
+/content/drive/MyDrive/Dataset Oral Cancer/normal/S NORMAL 2.jpg,normal
+/content/drive/MyDrive/Dataset Oral Cancer/normal/S NORMAL.jpg,normal
+/content/drive/MyDrive/Dataset Oral Cancer/normal/Rasd.jpg,normal
+/content/drive/MyDrive/Dataset Oral Cancer/normal/434.jpeg,normal
+/content/drive/MyDrive/Dataset Oral Cancer/normal/359.jpeg,normal
+/content/drive/MyDrive/Dataset Oral Cancer/normal/365.jpeg,normal
+/content/drive/MyDrive/Dataset Oral Cancer/normal/413.jpeg,normal
+/content/drive/MyDrive/Dataset Oral Cancer/normal/367.jpeg,normal
+/content/drive/MyDrive/Dataset Oral Cancer/normal/394.jpeg,normal
+/content/drive/MyDrive/Dataset Oral Cancer/normal/photo_2025-01-26_16-40-31.jpg,normal
+/content/drive/MyDrive/Dataset Oral Cancer/normal/418.jpeg,normal
+/content/drive/MyDrive/Dataset Oral Cancer/normal/387.jpeg,normal
+/content/drive/MyDrive/Dataset Oral Cancer/normal/DSC_02062.jpg,normal
+/content/drive/MyDrive/Dataset Oral Cancer/normal/366.jpeg,normal
+/content/drive/MyDrive/Dataset Oral Cancer/normal/photo_2025-01-26_16-40-32 (2).jpg,normal
+/content/drive/MyDrive/Dataset Oral Cancer/normal/427.jpeg,normal
+/content/drive/MyDrive/Dataset Oral Cancer/normal/417.jpeg,normal
+/content/drive/MyDrive/Dataset Oral Cancer/normal/364.jpeg,normal
+/content/drive/MyDrive/Dataset Oral Cancer/normal/414.jpeg,normal
+/content/drive/MyDrive/Dataset Oral Cancer/normal/WP_20141029_18_42_38_Pro2.jpg,normal
+/content/drive/MyDrive/Dataset Oral Cancer/normal/378.jpeg,normal
+/content/drive/MyDrive/Dataset Oral Cancer/normal/gum-disease.jpg,normal
+/content/drive/MyDrive/Dataset Oral Cancer/normal/447.jpeg,normal
+/content/drive/MyDrive/Dataset Oral Cancer/normal/dataset_jlspo68f92i21.jpg,normal
+/content/drive/MyDrive/Dataset Oral Cancer/normal/photo_2025-01-26_17-19-22.jpg,normal
+/content/drive/MyDrive/Dataset Oral Cancer/normal/421.jpeg,normal
+/content/drive/MyDrive/Dataset Oral Cancer/normal/411.jpeg,normal
+/content/drive/MyDrive/Dataset Oral Cancer/normal/391.jpeg,normal
+/content/drive/MyDrive/Dataset Oral Cancer/normal/69293_mouth-exam-child-iStock-510174422.jpg_ccba64ac-3050-4b37-9641-ca94b3db2c11.jpeg,normal
+/content/drive/MyDrive/Dataset Oral Cancer/normal/408.jpeg,normal
+/content/drive/MyDrive/Dataset Oral Cancer/normal/361.jpeg,normal
+/content/drive/MyDrive/Dataset Oral Cancer/normal/432.jpeg,normal
+/content/drive/MyDrive/Dataset Oral Cancer/normal/asdasdasfasf.jpg,normal
+/content/drive/MyDrive/Dataset Oral Cancer/normal/photo_2025-01-26_17-19-33.jpg,normal
+/content/drive/MyDrive/Dataset Oral Cancer/normal/409.jpeg,normal
+/content/drive/MyDrive/Dataset Oral Cancer/normal/430.jpeg,normal
+/content/drive/MyDrive/Dataset Oral Cancer/normal/449.jpeg,normal
+/content/drive/MyDrive/Dataset Oral Cancer/normal/415.jpeg,normal
+/content/drive/MyDrive/Dataset Oral Cancer/normal/444.jpeg,normal
+/content/drive/MyDrive/Dataset Oral Cancer/normal/362.jpeg,normal
+/content/drive/MyDrive/Dataset Oral Cancer/normal/Normal-Mouth-and-Teeth-must-know.jpg,normal
+/content/drive/MyDrive/Dataset Oral Cancer/normal/439.jpeg,normal
+/content/drive/MyDrive/Dataset Oral Cancer/normal/450.jpeg,normal
+/content/drive/MyDrive/Dataset Oral Cancer/normal/395.jpeg,normal
+/content/drive/MyDrive/Dataset Oral Cancer/normal/375.jpeg,normal
+/content/drive/MyDrive/Dataset Oral Cancer/normal/448.jpeg,normal
+/content/drive/MyDrive/Dataset Oral Cancer/normal/424.jpeg,normal
+/content/drive/MyDrive/Dataset Oral Cancer/normal/357.jpeg,normal
+/content/drive/MyDrive/Dataset Oral Cancer/normal/369.jpeg,normal
+/content/drive/MyDrive/Dataset Oral Cancer/normal/381.jpeg,normal
+/content/drive/MyDrive/Dataset Oral Cancer/normal/photo_2025-01-26_17-21-36.jpg,normal
+/content/drive/MyDrive/Dataset Oral Cancer/normal/photo_2025-01-26_17-21-49.jpg,normal
+/content/drive/MyDrive/Dataset Oral Cancer/normal/photo_2025-01-26_17-22-19.jpg,normal
+/content/drive/MyDrive/Dataset Oral Cancer/normal/photo_2025-01-26_17-22-24.jpg,normal
+/content/drive/MyDrive/Dataset Oral Cancer/normal/photo_2025-01-26_17-19-45.jpg,normal
+/content/drive/MyDrive/Dataset Oral Cancer/normal/photo_2025-01-26_17-20-55.jpg,normal
+/content/drive/MyDrive/Dataset Oral Cancer/normal/photo_2025-01-26_17-20-46.jpg,normal
+/content/drive/MyDrive/Dataset Oral Cancer/normal/photo_2025-01-26_17-21-57.jpg,normal
+/content/drive/MyDrive/Dataset Oral Cancer/normal/photo_2025-01-26_17-21-08.jpg,normal
+/content/drive/MyDrive/Dataset Oral Cancer/normal/photo_2025-01-26_17-19-41.jpg,normal
+/content/drive/MyDrive/Dataset Oral Cancer/normal/photo_2025-01-26_17-20-24.jpg,normal
+/content/drive/MyDrive/Dataset Oral Cancer/normal/photo_2025-01-26_17-21-18.jpg,normal
+/content/drive/MyDrive/Dataset Oral Cancer/normal/photo_2025-01-26_17-20-35.jpg,normal
+/content/drive/MyDrive/Dataset Oral Cancer/normal/photo_2025-01-26_17-21-00.jpg,normal
+/content/drive/MyDrive/Dataset Oral Cancer/normal/photo_2025-01-26_17-20-10.jpg,normal
+/content/drive/MyDrive/Dataset Oral Cancer/normal/photo_2025-01-26_17-21-27.jpg,normal
+/content/drive/MyDrive/Dataset Oral Cancer/normal/photo_2025-01-26_17-19-58.jpg,normal
+/content/drive/MyDrive/Dataset Oral Cancer/normal/photo_2025-01-26_17-21-53.jpg,normal
+/content/drive/MyDrive/Dataset Oral Cancer/normal/photo_2025-01-26_17-20-51.jpg,normal
+/content/drive/MyDrive/Dataset Oral Cancer/normal/photo_2025-01-26_17-21-32.jpg,normal
+/content/drive/MyDrive/Dataset Oral Cancer/normal/photo_2025-01-26_17-21-39.jpg,normal
+/content/drive/MyDrive/Dataset Oral Cancer/normal/photo_2025-01-26_17-20-19.jpg,normal
+/content/drive/MyDrive/Dataset Oral Cancer/normal/photo_2025-01-26_17-21-23.jpg,normal
+/content/drive/MyDrive/Dataset Oral Cancer/normal/photo_2025-01-26_17-20-06.jpg,normal
+/content/drive/MyDrive/Dataset Oral Cancer/normal/photo_2025-01-26_17-20-15.jpg,normal
+/content/drive/MyDrive/Dataset Oral Cancer/normal/photo_2025-01-26_17-22-41.jpg,normal
+/content/drive/MyDrive/Dataset Oral Cancer/normal/photo_2025-01-26_17-20-02.jpg,normal
+/content/drive/MyDrive/Dataset Oral Cancer/normal/photo_2025-01-26_17-22-02.jpg,normal
+/content/drive/MyDrive/Dataset Oral Cancer/normal/photo_2025-01-26_17-21-44.jpg,normal
+/content/drive/MyDrive/Dataset Oral Cancer/normal/photo_2025-01-26_17-20-28.jpg,normal
+/content/drive/MyDrive/Dataset Oral Cancer/normal/photo_2025-01-26_17-21-04.jpg,normal
+/content/drive/MyDrive/Dataset Oral Cancer/normal/photo_2025-01-26_17-22-44.jpg,normal
+/content/drive/MyDrive/Dataset Oral Cancer/normal/photo_2025-01-26_17-22-11.jpg,normal
+/content/drive/MyDrive/Dataset Oral Cancer/normal/photo_2025-01-26_17-22-28.jpg,normal
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/047.jpeg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/076.jpeg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/032.jpeg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/068.jpeg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/027.jpeg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/009.jpeg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/071.jpeg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/004.jpeg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/077.jpeg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/080.jpeg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/026.jpeg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/043.jpeg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/023.jpeg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/013.jpeg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/060.jpeg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/028.jpeg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/051.jpeg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/041.jpeg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/006.jpeg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/030.jpeg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/020.jpeg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/011.jpeg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/008.jpeg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/037.jpeg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/003.jpeg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/048.jpeg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/072.jpeg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/053.jpeg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/091.jpeg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/063.jpeg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/074.jpeg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/016.jpeg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/035.jpeg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/018.jpeg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/088.jpeg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/057.jpeg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/040.jpeg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/019.jpeg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/049.jpeg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/081.jpeg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/010.jpeg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/083.jpeg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/046.jpeg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/067.jpeg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/084.jpeg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/033.jpeg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/036.jpeg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/005.jpeg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/042.jpeg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/075.jpeg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/01960a64-cfe8-444d-bbc5-575c15389a21.jpg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/034.jpeg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/002.jpeg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/069.jpeg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/079.jpeg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/001.jpeg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/058.jpeg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/086.jpeg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/073.jpeg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/029.jpeg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/056.jpeg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/017.jpeg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/066.jpeg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/070.jpeg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/044.jpeg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/089.jpeg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/038.jpeg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/090.jpeg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/050.jpeg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/021.jpeg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/025.jpeg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/024.jpeg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/064.jpeg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/014.jpeg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/078.jpeg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/087.jpeg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/012.jpeg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/085.jpeg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/031.jpeg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/059.jpeg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/052.jpeg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/022.jpeg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/007.jpeg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/065.jpeg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/061.jpeg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/015.jpeg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/124.jpeg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/102.jpeg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/171.jpeg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/135.jpeg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/111.jpeg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/188.jpeg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/140.jpeg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/115.jpeg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/099.jpeg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/150.jpeg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/132.jpeg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/190.jpeg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/098.jpeg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/183.jpeg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/120.jpeg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/173.jpeg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/202.jpeg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/106.jpeg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/170.jpeg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/116.jpeg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/185.jpeg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/160.jpeg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/192.jpeg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/198.jpeg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/151.jpeg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/131.jpeg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/184.jpeg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/208.jpeg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/157.jpeg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/121.jpeg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/172.jpeg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/117.jpeg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/168.jpeg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/194.jpeg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/118.jpeg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/176.jpeg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/110.jpeg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/153.jpeg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/143.jpeg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/162.jpeg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/100.jpeg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/205.jpeg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/113.jpeg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/096.jpeg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/108.jpeg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/128.jpeg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/181.jpeg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/129.jpeg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/107.jpeg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/134.jpeg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/138.jpeg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/149.jpeg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/145.jpeg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/155.jpeg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/169.jpeg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/191.jpeg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/210.jpeg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/094.jpeg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/112.jpeg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/139.jpeg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/175.jpeg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/180.jpeg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/197.jpeg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/196.jpeg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/148.jpeg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/136.jpeg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/122.jpeg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/189.jpeg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/203.jpeg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/213.jpeg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/179.jpeg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/156.jpeg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/212.jpeg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/206.jpeg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/174.jpeg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/161.jpeg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/163.jpeg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/154.jpeg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/146.jpeg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/167.jpeg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/104.jpeg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/126.jpeg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/166.jpeg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/177.jpeg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/125.jpeg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/105.jpeg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/095.jpeg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/092.jpeg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/182.jpeg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/195.jpeg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/103.jpeg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/142.jpeg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/211.jpeg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/204.jpeg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/164.jpeg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/127.jpeg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/201.jpeg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/193.jpeg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/144.jpeg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/159.jpeg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/137.jpeg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/178.jpeg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/109.jpeg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/158.jpeg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/097.jpeg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/130.jpeg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/186.jpeg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/207.jpeg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/141.jpeg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/209.jpeg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/133.jpeg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/119.jpeg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/199.jpeg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/093.jpeg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/123.jpeg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/152.jpeg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/147.jpeg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/187.jpeg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/114.jpeg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/165.jpeg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/321.jpeg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/236.jpeg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/233.jpeg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/237.jpeg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/218.jpeg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/307.jpeg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/250.jpeg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/258.jpeg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/269.jpeg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/243.jpeg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/288.jpeg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/264.jpeg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/290.jpeg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/319.jpeg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/270.jpeg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/245.jpeg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/259.jpeg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/240.jpeg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/246.jpeg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/310.jpeg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/332.jpeg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/339.jpeg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/320.jpeg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/265.jpeg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/215.jpeg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/268.jpeg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/293.jpeg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/241.jpeg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/223.jpeg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/267.jpeg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/289.jpeg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/220.jpeg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/306.jpeg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/301.jpeg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/242.jpeg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/239.jpeg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/260.jpeg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/350.jpeg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/330.jpeg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/216.jpeg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/248.jpeg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/219.jpeg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/302.jpeg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/338.jpeg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/221.jpeg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/316.jpeg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/315.jpeg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/234.jpeg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/347.jpeg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/217.jpeg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/261.jpeg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/249.jpeg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/337.jpeg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/238.jpeg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/285.jpeg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/294.jpeg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/279.jpeg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/282.jpeg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/226.jpeg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/345.jpeg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/300.jpeg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/247.jpeg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/324950_1100.jpg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/227.jpeg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/341.jpeg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/344.jpeg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/228.jpeg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/283.jpeg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/230.jpeg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/255.jpeg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/333.jpeg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/312.jpeg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/253.jpeg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/352.jpeg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/311.jpeg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/314.jpeg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/214.jpeg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/323.jpeg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/296.jpeg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/353.jpeg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/349.jpeg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/252.jpeg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/272.jpeg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/336.jpeg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/254.jpeg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/348.jpeg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/343.jpeg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/292.jpeg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/326.jpeg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/281.jpeg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/305.jpeg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/229.jpeg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/257.jpeg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/297.jpeg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/327.jpeg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/291.jpeg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/322.jpeg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/325.jpeg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/286.jpeg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/235.jpeg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/262.jpeg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/287.jpeg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/263.jpeg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/271.jpeg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/351.jpeg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/335.jpeg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/224.jpeg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/256.jpeg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/331.jpeg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/277.jpeg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/295.jpeg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/274.jpeg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/309.jpeg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/284.jpeg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/225.jpeg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/346.jpeg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/280.jpeg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/222.jpeg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/340.jpeg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/303.jpeg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/329.jpeg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/313.jpeg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/342.jpeg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/298.jpeg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/334.jpeg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/318.jpeg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/244.jpeg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/324.jpeg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/231.jpeg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/308.jpeg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/232.jpeg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/251.jpeg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/266.jpeg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/278.jpeg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/275.jpeg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/299.jpeg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/304.jpeg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/276.jpeg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/419.jpeg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/441.jpeg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/397.jpeg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/363.jpeg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/374.jpeg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/371.jpeg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/457.jpeg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/381.jpeg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/461.jpeg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/395.jpeg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/410.jpeg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/405.jpeg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/467.jpeg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/402.jpeg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/430.jpeg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/380.jpeg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/424.jpeg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/391.jpeg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/446.jpeg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/421.jpeg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/436.jpeg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/373.jpeg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/462.jpeg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/425.jpeg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/408.jpeg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/399.jpeg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/394.jpeg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/445.jpeg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/389.jpeg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/431.jpeg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/465.jpeg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/393.jpeg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/443.jpeg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/378.jpeg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/356.jpeg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/413.jpeg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/460.jpeg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/434.jpeg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/437.jpeg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/358.jpeg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/404.jpeg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/459.jpeg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/364.jpeg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/440.jpeg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/409.jpeg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/449.jpeg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/357.jpeg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/456.jpeg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/387.jpeg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/439.jpeg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/396.jpeg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/453.jpeg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/385.jpeg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/370.jpeg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/366.jpeg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/362.jpeg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/432.jpeg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/422.jpeg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/412.jpeg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/464.jpeg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/444.jpeg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/454.jpeg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/379.jpeg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/398.jpeg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/466.jpeg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/367.jpeg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/447.jpeg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/423.jpeg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/400.jpeg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/401.jpeg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/377.jpeg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/428.jpeg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/442.jpeg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/365.jpeg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/426.jpeg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/359.jpeg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/458.jpeg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/468.jpeg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/438.jpeg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/463.jpeg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/416.jpeg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/403.jpeg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/390.jpeg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/411.jpeg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/406.jpeg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/372.jpeg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/392.jpeg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/360.jpeg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/429.jpeg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/376.jpeg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/414.jpeg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/369.jpeg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/355.jpeg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/427.jpeg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/382.jpeg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/433.jpeg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/361.jpeg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/448.jpeg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/354.jpeg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/386.jpeg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/b2585c8d-65a0-4476-a4e6-a9f2d424cd60.jpg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/493.jpeg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/dataset_oral-cancer-by-j-shah-33-728.jpg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/dataset_mouth-cancer-symptoms-1.jpg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/S16.jpg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/dataset_left_lateral_tongue_dysplasia_3.jpeg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/S7.jpg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/480.jpeg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/is-lip-cancer-painful.jpg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/SRMJResDentSci_2013_4_1_35_116830_u1.jpg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/473.jpeg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/dataset_squamous-cell-carinoma-of-the-tongue.jpg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/478.jpeg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/498.jpeg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/f063-001a-9781416025276.jpg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/497.jpeg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/images (2).jpeg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/first-sign-lip-cancer_c3094f88d448d26b.jpg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/a342a6a0-d3f6-4459-b99a-6a4d4313aa9f.jpg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/470.jpeg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/490.jpeg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/499.jpeg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/484.jpeg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/VWH-DermNetNZ-Geographic-Tongue-01-a85febae40e043449aa4a3002615e37e.jpg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/ds01089_im00213_c7_lipcancerpicturethu_jpg.jpg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/lipreconstruction1.jpg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/496.jpeg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/479.jpeg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/492.jpeg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/488.jpeg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/471.jpeg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/S10.jpg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/482.jpeg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/500.jpeg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/476.jpeg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/d09a9b5c-a0b1-488f-9d50-2937fe578a7e.jpg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/486.jpeg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/S8.jpg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/lower lip and gums.jpg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/S6.jpg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/495.jpeg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/dataset_650x350_oral_cancer_ref_guide.jpg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/472.jpeg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/lip-reconstruction-gallery-skin-cancer-and-reconstructive-surgery-pertaining-to-lip-cancer-surgery.jpg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/lip-cancer-pictures-youtube-regarding-lip-cancer-pictures.jpg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/475.jpeg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/474.jpeg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/469.jpeg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/477.jpeg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/S17.jpg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/lip-cancer-br-image-credit-national-cancer-institute-2003-br.jpg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/dataset_2-1080x675.jpg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/Oral-Cancer-Screenings.jpg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/489.jpeg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/494.jpeg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/photo_2025-01-26_17-25-26.jpg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/photo_2025-01-26_17-26-30.jpg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/photo_2025-01-26_17-27-47.jpg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/photo_2025-01-26_17-27-15.jpg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/photo_2025-01-26_17-32-16.jpg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/photo_2025-01-26_17-28-07.jpg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/photo_2025-01-26_17-31-19.jpg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/photo_2025-01-26_17-27-34.jpg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/photo_2025-01-26_17-30-56.jpg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/photo_2025-01-26_17-28-03.jpg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/photo_2025-01-26_17-29-59.jpg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/photo_2025-01-26_17-28-14.jpg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/photo_2025-01-26_17-30-32.jpg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/photo_2025-01-26_17-27-43.jpg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/photo_2025-01-26_17-25-03.jpg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/photo_2025-01-26_17-27-27.jpg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/photo_2025-01-26_17-24-55.jpg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/photo_2025-01-26_17-25-13.jpg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/photo_2025-01-26_17-32-29.jpg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/photo_2025-01-26_17-25-21.jpg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/photo_2025-01-26_17-26-54.jpg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/photo_2025-01-26_17-28-19.jpg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/photo_2025-01-26_17-27-59.jpg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/photo_2025-01-26_17-30-28.jpg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/photo_2025-01-26_17-30-09.jpg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/photo_2025-01-26_17-32-12.jpg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/photo_2025-01-26_17-30-48.jpg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/photo_2025-01-26_17-29-30.jpg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/photo_2025-01-26_17-27-11.jpg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/photo_2025-01-26_17-26-25.jpg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/photo_2025-01-26_17-32-25.jpg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/photo_2025-01-26_17-27-31.jpg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/photo_2025-01-26_17-25-46.jpg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/photo_2025-01-26_17-31-31.jpg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/photo_2025-01-26_17-31-51.jpg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/photo_2025-01-26_17-28-59.jpg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/photo_2025-01-26_17-28-11.jpg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/photo_2025-01-26_17-31-59.jpg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/photo_2025-01-26_17-25-50.jpg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/photo_2025-01-26_17-29-17.jpg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/photo_2025-01-26_17-29-04.jpg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/photo_2025-01-26_17-29-26.jpg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/photo_2025-01-26_17-26-34.jpg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/photo_2025-01-26_17-30-04.jpg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/photo_2025-01-26_17-31-27.jpg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/photo_2025-01-26_17-30-52.jpg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/photo_2025-01-26_17-29-45.jpg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/photo_2025-01-26_17-28-54.jpg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/photo_2025-01-26_17-30-36.jpg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/photo_2025-01-26_17-26-03.jpg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/photo_2025-01-26_17-25-30.jpg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/photo_2025-01-26_17-32-07.jpg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/photo_2025-01-26_17-29-12.jpg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/photo_2025-01-26_17-25-09.jpg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/photo_2025-01-26_17-31-43.jpg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/photo_2025-01-26_17-29-42.jpg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/photo_2025-01-26_17-25-54.jpg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/photo_2025-01-26_17-31-15.jpg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/photo_2025-01-26_17-31-03.jpg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/photo_2025-01-26_17-31-39.jpg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/photo_2025-01-26_17-26-59.jpg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/photo_2025-01-26_17-26-42.jpg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/photo_2025-01-26_17-25-38.jpg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/photo_2025-01-26_17-30-24.jpg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/photo_2025-01-26_17-31-07.jpg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/photo_2025-01-26_17-26-46.jpg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/photo_2025-01-26_17-31-00.jpg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/photo_2025-01-26_17-26-21.jpg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/photo_2025-01-26_17-27-56.jpg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/photo_2025-01-26_17-31-35.jpg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/photo_2025-01-26_17-28-30.jpg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/photo_2025-01-26_17-25-17.jpg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/photo_2025-01-26_17-30-14.jpg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/photo_2025-01-26_17-27-19.jpg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/photo_2025-01-26_17-28-25.jpg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/photo_2025-01-26_17-29-33.jpg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/photo_2025-01-26_17-26-38.jpg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/photo_2025-01-26_17-27-38.jpg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/photo_2025-01-26_17-27-03.jpg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/photo_2025-01-26_17-27-23.jpg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/photo_2025-01-26_17-29-08.jpg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/photo_2025-01-26_17-30-44.jpg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/photo_2025-01-26_17-26-50.jpg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/photo_2025-01-26_17-29-37.jpg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/photo_2025-01-26_17-32-03.jpg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/photo_2025-01-26_17-29-50.jpg,Oral Cancer photos
+/content/drive/MyDrive/Dataset Oral Cancer/Oral Cancer photos/photo_2025-01-26_17-31-54.jpg,Oral Cancer photos
