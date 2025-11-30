@@ -38,6 +38,23 @@ st.subheader("Comparison of CNNs on Color vs. Grayscale Images")
 
 # --- Display Table ---
 st.dataframe(results_df, use_container_width=True)
+
+# --- Hyperparameters Section ---
+st.markdown("---")
+st.subheader("⚙️ Hyperparameters Used")
+
+hyperparams = {
+    "Batch Size": 16,
+    "Epochs": 50,
+    "Learning Rate": 0.001,
+    "Patience": 8,
+    "Validation Split": 0.2
+}
+
+# Convert to DataFrame for pretty display
+hyperparams_df = pd.DataFrame(list(hyperparams.items()), columns=["Parameter", "Value"])
+st.table(hyperparams_df)
+
 st.markdown("---")
 st.caption("The table shows Accuracy, Loss, and Training Time for each model.")
 
