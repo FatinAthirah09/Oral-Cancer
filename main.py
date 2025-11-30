@@ -1,6 +1,6 @@
 import pandas as pd
 import plotly.express as px
-import plotly.graph_objects as go # Used for adding the reference line
+import plotly.graph_objects as go
 
 # --- 1. Data Preparation ---
 
@@ -68,7 +68,7 @@ results['Training Time (minutes)'].append(13.57)
 # Create the DataFrame
 results_df = pd.DataFrame(results)
 
-# --- 2. Plotting Function (Plotly Format) ---
+# --- 2. Plotting Function (Plotly Format - Fixed) ---
 
 def plot_accuracy_comparison_plotly(results_df: pd.DataFrame, accuracy_col: str = 'Accuracy', model_col: str = 'Model'):
     """
@@ -76,7 +76,7 @@ def plot_accuracy_comparison_plotly(results_df: pd.DataFrame, accuracy_col: str 
     using an interactive Plotly grouped bar chart.
     """
 
-    # 1. Data Preparation (Identical to the original function)
+    # 1. Data Preparation
     # Use str.extract to capture the base model name and the image type (Color/Grayscale)
     extracted_data = results_df[model_col].str.extract(r'(.+)\s\((Color|Grayscale)\)')
     if extracted_data.empty or extracted_data.shape[1] < 2:
@@ -91,29 +91,29 @@ def plot_accuracy_comparison_plotly(results_df: pd.DataFrame, accuracy_col: str 
         results_df[[accuracy_col]]
     ], axis=1).dropna(subset=['Base Model'])
 
-    # Plotly's px.bar handles the grouping and melting internally
-    # when provided with x, y, and color/facet arguments, simplifying the code.
+    # 2. Visualization: Use Plotly Express
     
-    # 2. Visualization: Use Plotly Express for an interactive chart
+    # *** FIX APPLIED HERE: Using px.colors.qualitative.Spectral ***
+    # This correctly accesses the color sequence from the plotly.express module structure.
     fig = px.bar(
         plot_df,
         x='Base Model',
         y=accuracy_col,
-        color='Image Type', # This creates the grouped bars (hue equivalent)
-        barmode='group',     # Explicitly set to 'group' for side-by-side bars
+        color='Image Type', 
+        barmode='group',
         title='Accuracy Comparison: Color vs. Grayscale Model Performance',
         labels={
             'Base Model': 'Base Model / Algorithm',
             accuracy_col: f'{accuracy_col}',
             'Image Type': 'Input Data Type'
         },
-        template='plotly_white', # Set a clean theme
-        color_discrete_sequence=px.colors.qualitative.Spectral # Use a color sequence similar to the original 'Spectral'
+        template='plotly_white',
+        color_discrete_sequence=px.colors.qualitative.Spectral # FIXED LINE
     )
 
-    # 3. Enhance Plot Details (Layout and Reference Line)
+    # 3. Enhance Plot Details
     
-    # Calculate sensible y-limits (optional but good practice)
+    # Calculate sensible y-limits
     min_acc = plot_df[accuracy_col].min()
     max_acc = plot_df[accuracy_col].max()
     y_range = [max(0, min_acc - 0.05), min(1.0, max_acc + 0.05)]
@@ -124,13 +124,13 @@ def plot_accuracy_comparison_plotly(results_df: pd.DataFrame, accuracy_col: str 
         yaxis_title_font_size=12,
         legend_title_font_size=12,
         yaxis_range=y_range,
-        xaxis_tickangle=-45 # Rotate x-axis labels
+        xaxis_tickangle=-45
     )
     
-    # Add a horizontal line at 0.5 for reference using graph objects (go)
+    # Add a horizontal line at 0.5 for reference
     fig.add_trace(
         go.Scatter(
-            x=['DenseNet121', 'ResNet50', 'VGG16', 'MobileNetV2', 'InceptionV3'], # Span the full x-axis
+            x=['DenseNet121', 'ResNet50', 'VGG16', 'MobileNetV2', 'InceptionV3'], 
             y=[0.5] * 5, 
             mode='lines',
             name='Random Guess Baseline',
@@ -139,10 +139,15 @@ def plot_accuracy_comparison_plotly(results_df: pd.DataFrame, accuracy_col: str 
         )
     )
 
-    # Show the plot
+    # In a Streamlit app, you would typically use st.plotly_chart(fig).
+    # For a general script, we still use fig.show():
     fig.show()
 
 # --- 3. Execution ---
 
 # Call the new Plotly function
 plot_accuracy_comparison_plotly(results_df)
+
+# If running in Streamlit, replace 'fig.show()' with:
+# import streamlit as st
+# st.plotly_chart(fig, use_container_width=True)
