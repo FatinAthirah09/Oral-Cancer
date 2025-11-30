@@ -88,5 +88,26 @@ def plot_accuracy_comparison_plotly(df):
         color='Image Type',
         barmode='group',
         height=600,
-        color_discrete_sequence=p
+        color_discrete_sequence=px.colors.sequential.Spectral  # 🔥 FIXED — now valid
+    )
 
+    # Chart styling
+    fig.update_layout(
+        title="Accuracy Comparison: Color vs Grayscale CNN Models",
+        xaxis_title="Base Model",
+        yaxis_title="Accuracy",
+        title_x=0.5,
+        legend_title="Image Type"
+    )
+
+    fig.update_xaxes(tickangle=45)
+
+    return fig
+
+
+# --- 3. Render in Streamlit ---
+
+def render_accuracy_chart():
+    st.header("📊 Accuracy Comparison (Plotly Bar Chart)")
+    fig = plot_accuracy_comparison_plotly(results_df)
+    st.plotly_chart(fig, use_container_width=True)
