@@ -1,11 +1,11 @@
 import pandas as pd
 import plotly.express as px
 import plotly.graph_objects as go
-import streamlit as st # <-- Essential for Streamlit deployment
+import streamlit as st 
 
 # --- 1. Data Preparation ---
 
-# Create a dictionary to store the results (Centralized Data)
+# Create the results dictionary with all data points
 results = {
     'Model': ['DenseNet121 (Color)', 'ResNet50 (Color)', 'VGG16 (Color)', 'MobileNetV2 (Color)', 'InceptionV3 (Color)', 
               'DenseNet121 (Grayscale)', 'ResNet50 (Grayscale)', 'VGG16 (Grayscale)', 'MobileNetV2 (Grayscale)', 'InceptionV3 (Grayscale)'],
@@ -15,29 +15,42 @@ results = {
 }
 results_df = pd.DataFrame(results)
 
-# --- 2. Plotting Function (Plotly Format - Fixed for Streamlit) ---
+# --- 2. Plotting Function (Plotly Format - Final Robust Version) ---
 
 def plot_accuracy_comparison_plotly(results_df: pd.DataFrame, accuracy_col: str = 'Accuracy', model_col: str = 'Model'):
     """
     Compares the accuracy of models trained on color and grayscale images
     using an interactive Plotly grouped bar chart and returns the figure object.
+    Includes data cleaning and robust plotting parameters.
     """
 
-    # Data Preparation: Extract Base Model and Image Type
+    # 1. Data Preparation: Extract Base Model and Image Type
     extracted_data = results_df[model_col].str.extract(r'(.+)\s\((Color|Grayscale)\)')
     if extracted_data.empty or extracted_data.shape[1] < 2:
-        # Fallback in case of parsing error
-        st.error("Error: Model names could not be parsed for plotting.")
-        return go.Figure() # Return an empty figure
+        st.error("Error: Model names could not be parsed for plotting. Check the format 'ModelName (Type)'.")
+        return go.Figure()
         
     extracted_data.columns = ['Base Model', 'Image Type']
     plot_df = pd.concat([
         extracted_data,
         results_df[[accuracy_col]]
-    ], axis=1).dropna(subset=['Base Model'])
+    ], axis=1).dropna(subset=['Base Model']) 
+    
+    # Data Integrity Checks
+    if plot_df[['Base Model', 'Image Type', accuracy_col]].isnull().any().any():
+        plot_df.dropna(subset=['Base Model', 'Image Type', accuracy_col], inplace=True)
+        st.warning("NaN values detected and removed from plotting data.")
 
-    # Visualization: Use Plotly Express
-    # FIX: Using the string name 'Spectral' for the color palette to avoid module access errors
+    # Explicit type conversion for stability
+    plot_df['Base Model'] = plot_df['Base Model'].astype(str)
+    plot_df['Image Type'] = plot_df['Image Type'].astype(str)
+    
+    if plot_df.empty:
+        st.error("No valid data remaining after cleaning for plotting.")
+        return go.Figure()
+    
+    # 2. Visualization: Use Plotly Express
+    # FIX APPLIED: Using the string name 'Spectral' for the color palette
     fig = px.bar(
         plot_df,
         x='Base Model',
@@ -51,10 +64,10 @@ def plot_accuracy_comparison_plotly(results_df: pd.DataFrame, accuracy_col: str 
             'Image Type': 'Input Data Type'
         },
         template='plotly_white',
-        color_discrete_sequence='Spectral' # The most reliable fix
+        color_discrete_sequence='Spectral' 
     )
 
-    # Enhance Plot Details
+    # 3. Enhance Plot Details
     min_acc = plot_df[accuracy_col].min()
     max_acc = plot_df[accuracy_col].max()
     y_range = [max(0, min_acc - 0.05), min(1.0, max_acc + 0.05)]
@@ -80,9 +93,9 @@ def plot_accuracy_comparison_plotly(results_df: pd.DataFrame, accuracy_col: str 
         )
     )
 
-    return fig # Return the figure object for Streamlit to render
+    return fig
 
-# --- 3. Streamlit Execution Block (The part that displays the plot) ---
+# --- 3. Streamlit Execution Block (The part that displays the app content) ---
 
 if __name__ == '__main__':
     st.set_page_config(layout="wide")
@@ -93,6 +106,7 @@ if __name__ == '__main__':
     plot_figure = plot_accuracy_comparison_plotly(results_df)
 
     # 2. Display the Plotly figure in Streamlit
+    # This command is essential to show the plot in the web app!
     st.plotly_chart(plot_figure, use_container_width=True) 
     
     # 3. Display the raw data for transparency
