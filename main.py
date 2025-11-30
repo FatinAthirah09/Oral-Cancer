@@ -1,75 +1,20 @@
 import pandas as pd
 import plotly.express as px
 import plotly.graph_objects as go
-import plotly.colors as pcolors # <--- ADDED DEFINITIVE IMPORT
+# import plotly.colors as pcolors # <--- No longer needed, can be commented/removed
 
-# --- 1. Data Preparation (Unchanged) ---
-
-# Create a dictionary to store the results
+# ... (Data Preparation Section is unchanged) ...
 results = {
-    'Model': [],
-    'Accuracy': [],
-    'Loss': [],
-    'Training Time (minutes)': []
+    'Model': ['DenseNet121 (Color)', 'ResNet50 (Color)', 'VGG16 (Color)', 'MobileNetV2 (Color)', 'InceptionV3 (Color)', 
+              'DenseNet121 (Grayscale)', 'ResNet50 (Grayscale)', 'VGG16 (Grayscale)', 'MobileNetV2 (Grayscale)', 'InceptionV3 (Grayscale)'],
+    'Accuracy': [0.9107, 0.9196, 0.8839, 0.8973, 0.8750, 0.5223, 0.5223, 0.5223, 0.5223, 0.5223],
+    'Loss': [0.2151, 0.1845, 0.2809, 0.2759, 0.3006, 0.6916, 0.6922, 0.6921, 0.6922, 0.6922],
+    'Training Time (minutes)': [7.09, 8.98, 6.58, 6.81, 9.90, 17.39, 13.18, 16.77, 4.45, 13.57]
 }
-
-# Populate the dictionary with results from each model run
-# Color Models
-results['Model'].append('DenseNet121 (Color)')
-results['Accuracy'].append(0.9107)
-results['Loss'].append(0.2151)
-results['Training Time (minutes)'].append(7.09)
-
-results['Model'].append('ResNet50 (Color)')
-results['Accuracy'].append(0.9196)
-results['Loss'].append(0.1845)
-results['Training Time (minutes)'].append(8.98)
-
-results['Model'].append('VGG16 (Color)')
-results['Accuracy'].append(0.8839)
-results['Loss'].append(0.2809)
-results['Training Time (minutes)'].append(6.58)
-
-results['Model'].append('MobileNetV2 (Color)')
-results['Accuracy'].append(0.8973)
-results['Loss'].append(0.2759)
-results['Training Time (minutes)'].append(6.81)
-
-results['Model'].append('InceptionV3 (Color)')
-results['Accuracy'].append(0.8750)
-results['Loss'].append(0.3006)
-results['Training Time (minutes)'].append(9.90)
-
-# Grayscale Models
-results['Model'].append('DenseNet121 (Grayscale)')
-results['Accuracy'].append(0.5223)
-results['Loss'].append(0.6916)
-results['Training Time (minutes)'].append(17.39)
-
-results['Model'].append('ResNet50 (Grayscale)')
-results['Accuracy'].append(0.5223)
-results['Loss'].append(0.6922)
-results['Training Time (minutes)'].append(13.18)
-
-results['Model'].append('VGG16 (Grayscale)')
-results['Accuracy'].append(0.5223)
-results['Loss'].append(0.6921)
-results['Training Time (minutes)'].append(16.77)
-
-results['Model'].append('MobileNetV2 (Grayscale)')
-results['Accuracy'].append(0.5223)
-results['Loss'].append(0.6922)
-results['Training Time (minutes)'].append(4.45)
-
-results['Model'].append('InceptionV3 (Grayscale)')
-results['Accuracy'].append(0.5223)
-results['Loss'].append(0.6922)
-results['Training Time (minutes)'].append(13.57)
-
-# Create the DataFrame
 results_df = pd.DataFrame(results)
 
-# --- 2. Plotting Function (Plotly Format - Final Fix) ---
+
+# --- 2. Plotting Function (Plotly Format - Using String Name) ---
 
 def plot_accuracy_comparison_plotly(results_df: pd.DataFrame, accuracy_col: str = 'Accuracy', model_col: str = 'Model'):
     """
@@ -77,7 +22,7 @@ def plot_accuracy_comparison_plotly(results_df: pd.DataFrame, accuracy_col: str 
     using an interactive Plotly grouped bar chart.
     """
 
-    # 1. Data Preparation
+    # 1. Data Preparation (Unchanged)
     extracted_data = results_df[model_col].str.extract(r'(.+)\s\((Color|Grayscale)\)')
     if extracted_data.empty or extracted_data.shape[1] < 2:
         print("Error: Model names could not be parsed. Check the expected format 'BaseModel (Type)'.")
@@ -91,7 +36,7 @@ def plot_accuracy_comparison_plotly(results_df: pd.DataFrame, accuracy_col: str 
 
     # 2. Visualization: Use Plotly Express
     
-    # *** FINAL FIX APPLIED HERE: Using the pcolors alias ***
+    # *** FINAL FIX APPLIED HERE: Using the string name 'Spectral' ***
     fig = px.bar(
         plot_df,
         x='Base Model',
@@ -105,8 +50,7 @@ def plot_accuracy_comparison_plotly(results_df: pd.DataFrame, accuracy_col: str 
             'Image Type': 'Input Data Type'
         },
         template='plotly_white',
-        # --- Using the explicitly imported plotly.colors module for reliability ---
-        color_discrete_sequence=pcolors.qualitative.Spectral 
+        color_discrete_sequence='Spectral' # <--- FIXED LINE (Using string name)
     )
 
     # 3. Enhance Plot Details
@@ -126,7 +70,7 @@ def plot_accuracy_comparison_plotly(results_df: pd.DataFrame, accuracy_col: str 
     # Add a horizontal line at 0.5 for reference
     fig.add_trace(
         go.Scatter(
-            x=plot_df['Base Model'].unique(), # Get unique base models for full span
+            x=plot_df['Base Model'].unique(),
             y=[0.5] * len(plot_df['Base Model'].unique()), 
             mode='lines',
             name='Random Guess Baseline',
@@ -135,9 +79,12 @@ def plot_accuracy_comparison_plotly(results_df: pd.DataFrame, accuracy_col: str 
         )
     )
 
-    fig.show()
+    # Note: In Streamlit, you must pass the figure to st.plotly_chart()
+    # fig.show() 
+    return fig # Changed to return the figure for Streamlit
 
 # --- 3. Execution ---
 
-# Call the new Plotly function
-plot_accuracy_comparison_plotly(results_df)
+# Call the function (if in Streamlit, you would use st.plotly_chart)
+# plot_accuracy_comparison_plotly(results_df).show()
+# OR in Streamlit: st.plotly_chart(plot_accuracy_comparison_plotly(results_df))
