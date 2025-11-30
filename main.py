@@ -74,13 +74,10 @@ results_df = pd.DataFrame(results)
 
 # --------------------------------------------------------------------------------
 
-# --- 2. Plotting Function (Plotly Bar Chart) ---
+# --- 2. Plotting Function (Plotly Bar Chart - Final, Final Attempt) ---
 
 def plot_accuracy_comparison_plotly(results_df: pd.DataFrame, accuracy_col: str = 'Accuracy', model_col: str = 'Model'):
-    """
-    Creates the grouped bar chart using Plotly, incorporating robust data cleaning.
-    """
-
+    
     # 1. Data Preparation: Extract Base Model and Image Type
     extracted_data = results_df[model_col].str.extract(r'(.+)\s\((Color|Grayscale)\)')
     if extracted_data.empty or extracted_data.shape[1] < 2:
@@ -93,16 +90,10 @@ def plot_accuracy_comparison_plotly(results_df: pd.DataFrame, accuracy_col: str 
         results_df[[accuracy_col]]
     ], axis=1).dropna(subset=['Base Model']) 
     
-    # CRITICAL CLEANUP AND TYPE CASTING FOR PLOTLY STABILITY
+    # CRITICAL CLEANUP AND TYPE CASTING
     plot_df['Base Model'] = plot_df['Base Model'].astype(str).str.strip()
     plot_df['Image Type'] = plot_df['Image Type'].astype(str).str.strip()
-    
-    # Ensure Accuracy is a clean numeric type
-    try:
-        plot_df[accuracy_col] = pd.to_numeric(plot_df[accuracy_col], errors='coerce')
-    except Exception as e:
-        st.error(f"Failed to convert Accuracy column to numeric: {e}")
-        return go.Figure()
+    plot_df[accuracy_col] = pd.to_numeric(plot_df[accuracy_col], errors='coerce')
 
     plot_df.dropna(subset=['Base Model', 'Image Type', accuracy_col], inplace=True)
 
@@ -110,7 +101,13 @@ def plot_accuracy_comparison_plotly(results_df: pd.DataFrame, accuracy_col: str 
         st.error("No valid data remaining after cleaning for plotting.")
         return go.Figure()
     
+    # Get the ORDER of base models for the explicit category fix
+    base_model_order = plot_df['Base Model'].unique().tolist()
+    
     # 2. Visualization: Plotly Express
+    # Use explicit color list for maximum compatibility (blue/orange pair)
+    color_list = ['#1f77b4', '#ff7f0e'] # Deep Blue and Deep Orange
+    
     fig = px.bar(
         plot_df,
         x='Base Model',
@@ -124,10 +121,10 @@ def plot_accuracy_comparison_plotly(results_df: pd.DataFrame, accuracy_col: str 
             'Image Type': 'Input Data Type'
         },
         template='plotly_white',
-        color_discrete_sequence='Spectral' 
+        color_discrete_sequence=color_list # FIXED: Pass a list instead of a string name
     )
 
-    # 3. Add Layout and Reference Line (using add_shape for stability)
+    # 3. Enhance Plot Details
     min_acc = plot_df[accuracy_col].min()
     max_acc = plot_df[accuracy_col].max()
     y_range = [max(0, min_acc - 0.05), min(1.0, max_acc + 0.05)]
@@ -135,9 +132,12 @@ def plot_accuracy_comparison_plotly(results_df: pd.DataFrame, accuracy_col: str 
     fig.update_layout(
         yaxis_range=y_range,
         xaxis_tickangle=-45,
-        legend_title='Input Data Type'
+        legend_title='Input Data Type',
+        # FIXED: Explicitly define the category order for the X-axis
+        xaxis={'categoryorder':'array', 'categoryarray': base_model_order} 
     )
     
+    # Use fig.add_shape for horizontal line
     fig.add_shape(
         type='line', xref='paper', yref='y',
         x0=0, y0=0.5, x1=1, y1=0.5,
@@ -152,27 +152,3 @@ def plot_accuracy_comparison_plotly(results_df: pd.DataFrame, accuracy_col: str 
     )
 
     return fig
-
-# --------------------------------------------------------------------------------
-
-# --- 3. Streamlit Execution Block ---
-
-if __name__ == '__main__':
-    st.set_page_config(layout="wide")
-    
-    # --- CHART SECTION ---
-    st.title("🧠 Deep Learning Model Performance Analysis")
-    st.markdown("Comparison of Accuracy for CNN Models Trained on Color vs. Grayscale Inputs.")
-    
-    # Generate the Plotly figure
-    plot_figure = plot_accuracy_comparison_plotly(results_df)
-    
-    # Display the Plotly figure (The Chart)
-    st.plotly_chart(plot_figure, use_container_width=True) 
-    
-    st.markdown("---")
-    
-    # --- TABLE SECTION ---
-    st.subheader("Results Data Table")
-    # Display the DataFrame (The Table)
-    st.dataframe(results_df, use_container_width=True)
