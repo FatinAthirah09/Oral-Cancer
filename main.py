@@ -32,20 +32,17 @@ results = {
 results_df = pd.DataFrame(results)
 
 
-# ----------------------------------------------------------
-# 2. PLOTTING FUNCTION
-# ----------------------------------------------------------
+# --- 2. Plotly Bar Chart Function (FIXED + COMPATIBLE WITH STREAMLIT CLOUD) ---
 
 def plot_accuracy_comparison_plotly(df):
-
-    # Extract base model + image type
+    # Extract model base name + type
     extracted = df['Model'].str.extract(r'(.+)\s\((Color|Grayscale)\)')
     extracted.columns = ['Base Model', 'Image Type']
 
     # Combine with accuracy
     plot_df = pd.concat([extracted, df[['Accuracy']]], axis=1)
 
-    # Create Plotly chart
+    # Plot using Plotly Express
     fig = px.bar(
         plot_df,
         x='Base Model',
@@ -53,9 +50,10 @@ def plot_accuracy_comparison_plotly(df):
         color='Image Type',
         barmode='group',
         height=600,
-        color_discrete_sequence=px.colors.sequential.Spectral
+        color_discrete_sequence=px.colors.qualitative.Set2  # ✅ FIX: valid in all versions
     )
 
+    # Chart styling
     fig.update_layout(
         title="Accuracy Comparison: Color vs Grayscale CNN Models",
         xaxis_title="Base Model",
@@ -67,6 +65,7 @@ def plot_accuracy_comparison_plotly(df):
     fig.update_xaxes(tickangle=45)
 
     return fig
+
 
 
 # ----------------------------------------------------------
