@@ -41,6 +41,8 @@ if __name__ == '__main__':
     st.markdown("---")
     st.caption("This data frame can be used as input for plotting.")
 
+render_accuracy_chart()
+
 
 import pandas as pd
 import plotly.express as px
