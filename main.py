@@ -1,8 +1,9 @@
 import pandas as pd
 import plotly.express as px
 import plotly.graph_objects as go
+import plotly.colors as pcolors # <--- ADDED DEFINITIVE IMPORT
 
-# --- 1. Data Preparation ---
+# --- 1. Data Preparation (Unchanged) ---
 
 # Create a dictionary to store the results
 results = {
@@ -68,7 +69,7 @@ results['Training Time (minutes)'].append(13.57)
 # Create the DataFrame
 results_df = pd.DataFrame(results)
 
-# --- 2. Plotting Function (Plotly Format - Fixed) ---
+# --- 2. Plotting Function (Plotly Format - Final Fix) ---
 
 def plot_accuracy_comparison_plotly(results_df: pd.DataFrame, accuracy_col: str = 'Accuracy', model_col: str = 'Model'):
     """
@@ -77,15 +78,12 @@ def plot_accuracy_comparison_plotly(results_df: pd.DataFrame, accuracy_col: str 
     """
 
     # 1. Data Preparation
-    # Use str.extract to capture the base model name and the image type (Color/Grayscale)
     extracted_data = results_df[model_col].str.extract(r'(.+)\s\((Color|Grayscale)\)')
     if extracted_data.empty or extracted_data.shape[1] < 2:
         print("Error: Model names could not be parsed. Check the expected format 'BaseModel (Type)'.")
         return
         
     extracted_data.columns = ['Base Model', 'Image Type']
-
-    # Combine the extracted data with the accuracy values
     plot_df = pd.concat([
         extracted_data,
         results_df[[accuracy_col]]
@@ -93,8 +91,7 @@ def plot_accuracy_comparison_plotly(results_df: pd.DataFrame, accuracy_col: str 
 
     # 2. Visualization: Use Plotly Express
     
-    # *** FIX APPLIED HERE: Using px.colors.qualitative.Spectral ***
-    # This correctly accesses the color sequence from the plotly.express module structure.
+    # *** FINAL FIX APPLIED HERE: Using the pcolors alias ***
     fig = px.bar(
         plot_df,
         x='Base Model',
@@ -108,12 +105,11 @@ def plot_accuracy_comparison_plotly(results_df: pd.DataFrame, accuracy_col: str 
             'Image Type': 'Input Data Type'
         },
         template='plotly_white',
-        color_discrete_sequence=px.colors.qualitative.Spectral # FIXED LINE
+        # --- Using the explicitly imported plotly.colors module for reliability ---
+        color_discrete_sequence=pcolors.qualitative.Spectral 
     )
 
     # 3. Enhance Plot Details
-    
-    # Calculate sensible y-limits
     min_acc = plot_df[accuracy_col].min()
     max_acc = plot_df[accuracy_col].max()
     y_range = [max(0, min_acc - 0.05), min(1.0, max_acc + 0.05)]
@@ -130,8 +126,8 @@ def plot_accuracy_comparison_plotly(results_df: pd.DataFrame, accuracy_col: str 
     # Add a horizontal line at 0.5 for reference
     fig.add_trace(
         go.Scatter(
-            x=['DenseNet121', 'ResNet50', 'VGG16', 'MobileNetV2', 'InceptionV3'], 
-            y=[0.5] * 5, 
+            x=plot_df['Base Model'].unique(), # Get unique base models for full span
+            y=[0.5] * len(plot_df['Base Model'].unique()), 
             mode='lines',
             name='Random Guess Baseline',
             line=dict(color='red', dash='dash', width=1.5),
@@ -139,15 +135,9 @@ def plot_accuracy_comparison_plotly(results_df: pd.DataFrame, accuracy_col: str 
         )
     )
 
-    # In a Streamlit app, you would typically use st.plotly_chart(fig).
-    # For a general script, we still use fig.show():
     fig.show()
 
 # --- 3. Execution ---
 
 # Call the new Plotly function
 plot_accuracy_comparison_plotly(results_df)
-
-# If running in Streamlit, replace 'fig.show()' with:
-# import streamlit as st
-# st.plotly_chart(fig, use_container_width=True)
