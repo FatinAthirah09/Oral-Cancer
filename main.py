@@ -47,8 +47,8 @@ hyperparams = {
     "Batch Size": 16,
     "Epochs": 50,
     "Learning Rate": 0.001,
-    "Patience": 8,
-    "Validation Split": 0.2
+    "Training": 0.8,
+    "Testing": 0.2
 }
 
 # Convert to DataFrame for pretty display
